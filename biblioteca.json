@@ -44,7 +44,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibAreaConData-item/properties/LAreaCon"
+								"$ref": "#/components/schemas/post-BibAreaConData-item"
 							}
 						}
 					}
@@ -190,7 +190,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibArtAssuntoData-item/properties/LArtAssunto"
+								"$ref": "#/components/schemas/post-BibArtAssuntoData-item"
 							}
 						}
 					}
@@ -336,7 +336,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibArtigoData-item/properties/LArtigo"
+								"$ref": "#/components/schemas/post-BibArtigoData-item"
 							}
 						}
 					}
@@ -482,7 +482,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibAssRemisAssData-item/properties/LAssRemisAss"
+								"$ref": "#/components/schemas/post-BibAssRemisAssData-item"
 							}
 						}
 					}
@@ -628,7 +628,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibAssuntoData-item/properties/LAssunto"
+								"$ref": "#/components/schemas/post-BibAssuntoData-item"
 							}
 						}
 					}
@@ -774,7 +774,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibAssuntoPubData-item/properties/LAssuntoPub"
+								"$ref": "#/components/schemas/post-BibAssuntoPubData-item"
 							}
 						}
 					}
@@ -920,7 +920,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibAutorArtData-item/properties/LAutorArt"
+								"$ref": "#/components/schemas/post-BibAutorArtData-item"
 							}
 						}
 					}
@@ -1066,7 +1066,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibAutorData-item/properties/LAutor"
+								"$ref": "#/components/schemas/post-BibAutorData-item"
 							}
 						}
 					}
@@ -1212,7 +1212,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibAutorFuncData-item/properties/LAutorFunc"
+								"$ref": "#/components/schemas/post-BibAutorFuncData-item"
 							}
 						}
 					}
@@ -1358,7 +1358,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibAutRemisAutData-item/properties/LAutRemisAut"
+								"$ref": "#/components/schemas/post-BibAutRemisAutData-item"
 							}
 						}
 					}
@@ -1504,7 +1504,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibBiometriaData-item/properties/LBiometria"
+								"$ref": "#/components/schemas/post-BibBiometriaData-item"
 							}
 						}
 					}
@@ -1650,7 +1650,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibCadastroPublicacaoData-item/properties/LPublic"
+								"$ref": "#/components/schemas/post-BibCadastroPublicacaoData-item"
 							}
 						}
 					}
@@ -1796,7 +1796,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibCategoriaData-item/properties/LCategoria"
+								"$ref": "#/components/schemas/post-BibCategoriaData-item"
 							}
 						}
 					}
@@ -1942,7 +1942,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibClasseValorProtheusData-item/properties/CTH"
+								"$ref": "#/components/schemas/post-BibClasseValorProtheusData-item"
 							}
 						}
 					}
@@ -2088,7 +2088,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibColecaoSerieData-item/properties/LColecaoSerie"
+								"$ref": "#/components/schemas/post-BibColecaoSerieData-item"
 							}
 						}
 					}
@@ -2234,7 +2234,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibCutterData-item/properties/LCutter"
+								"$ref": "#/components/schemas/post-BibCutterData-item"
 							}
 						}
 					}
@@ -2380,7 +2380,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibEditoraData-item/properties/LEditora"
+								"$ref": "#/components/schemas/post-BibEditoraData-item"
 							}
 						}
 					}
@@ -2526,7 +2526,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibEdtRemisEdtData-item/properties/LEdtRemisEdt"
+								"$ref": "#/components/schemas/post-BibEdtRemisEdtData-item"
 							}
 						}
 					}
@@ -2672,7 +2672,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibEmprestimosPendentesData-item/properties/LEmprestimosPeriodo"
+								"$ref": "#/components/schemas/post-BibEmprestimosPendentesData-item"
 							}
 						}
 					}
@@ -2818,7 +2818,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibEmprestimosWinData-item/properties/LEMPRESTIMOS"
+								"$ref": "#/components/schemas/post-BibEmprestimosWinData-item"
 							}
 						}
 					}
@@ -2964,7 +2964,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibExempArtData-item/properties/LExempArt"
+								"$ref": "#/components/schemas/post-BibExempArtData-item"
 							}
 						}
 					}
@@ -3110,7 +3110,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibExempArtigoData-item/properties/LExempArt"
+								"$ref": "#/components/schemas/post-BibExempArtigoData-item"
 							}
 						}
 					}
@@ -3256,7 +3256,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibExemplarData-item/properties/LExemplar"
+								"$ref": "#/components/schemas/post-BibExemplarData-item"
 							}
 						}
 					}
@@ -3402,7 +3402,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibFasciculoData-item/properties/LFASCICULO"
+								"$ref": "#/components/schemas/post-BibFasciculoData-item"
 							}
 						}
 					}
@@ -3548,7 +3548,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibFonteData-item/properties/LFonte"
+								"$ref": "#/components/schemas/post-BibFonteData-item"
 							}
 						}
 					}
@@ -3694,7 +3694,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibGrupoPublicData-item/properties/LGrupoPublic"
+								"$ref": "#/components/schemas/post-BibGrupoPublicData-item"
 							}
 						}
 					}
@@ -3840,7 +3840,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibHistoricoEmprestimosData-item/properties/LEMPRESTIMOS"
+								"$ref": "#/components/schemas/post-BibHistoricoEmprestimosData-item"
 							}
 						}
 					}
@@ -3986,7 +3986,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibIdiomasData-item/properties/LIdiomas"
+								"$ref": "#/components/schemas/post-BibIdiomasData-item"
 							}
 						}
 					}
@@ -4132,7 +4132,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibItemAutorData-item/properties/LItemAutor"
+								"$ref": "#/components/schemas/post-BibItemAutorData-item"
 							}
 						}
 					}
@@ -4278,7 +4278,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibItemContabilProtheusData-item/properties/CTD"
+								"$ref": "#/components/schemas/post-BibItemContabilProtheusData-item"
 							}
 						}
 					}
@@ -4424,7 +4424,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibLeitorBiometricoData-item/properties/LBioVeriFinger"
+								"$ref": "#/components/schemas/post-BibLeitorBiometricoData-item"
 							}
 						}
 					}
@@ -4570,7 +4570,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibLocalPubData-item/properties/LLocalPub"
+								"$ref": "#/components/schemas/post-BibLocalPubData-item"
 							}
 						}
 					}
@@ -4716,7 +4716,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibMovimentacaoWSDevRenCan-item/properties/DEVRENCAN"
+								"$ref": "#/components/schemas/post-BibMovimentacaoWSDevRenCan-item"
 							}
 						}
 					}
@@ -4862,7 +4862,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibMovimentacaoWSEmprestimo-item/properties/EMPRESTIMO"
+								"$ref": "#/components/schemas/post-BibMovimentacaoWSEmprestimo-item"
 							}
 						}
 					}
@@ -5008,7 +5008,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPaisData-item/properties/LPais"
+								"$ref": "#/components/schemas/post-BibPaisData-item"
 							}
 						}
 					}
@@ -5154,7 +5154,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibParcelaPorDataGeraMultaData-item/properties/LPARCELAPORDATA"
+								"$ref": "#/components/schemas/post-BibParcelaPorDataGeraMultaData-item"
 							}
 						}
 					}
@@ -5300,7 +5300,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPeriodicidadeData-item/properties/LPeriodicidade"
+								"$ref": "#/components/schemas/post-BibPeriodicidadeData-item"
 							}
 						}
 					}
@@ -5446,7 +5446,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPubAreaConData-item/properties/LPubAreaCon"
+								"$ref": "#/components/schemas/post-BibPubAreaConData-item"
 							}
 						}
 					}
@@ -5592,7 +5592,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPubFCFOData-item/properties/LPubFCFO"
+								"$ref": "#/components/schemas/post-BibPubFCFOData-item"
 							}
 						}
 					}
@@ -5738,7 +5738,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPubfonteData-item/properties/LPubfonte"
+								"$ref": "#/components/schemas/post-BibPubfonteData-item"
 							}
 						}
 					}
@@ -5884,7 +5884,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPublicCopyrightData-item/properties/LPUBLICREGCOPYRIGHT"
+								"$ref": "#/components/schemas/post-BibPublicCopyrightData-item"
 							}
 						}
 					}
@@ -6030,7 +6030,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPublicEGradeData-item/properties/LPublicEGrade"
+								"$ref": "#/components/schemas/post-BibPublicEGradeData-item"
 							}
 						}
 					}
@@ -6176,7 +6176,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPublicExempData-item/properties/LExemplar"
+								"$ref": "#/components/schemas/post-BibPublicExempData-item"
 							}
 						}
 					}
@@ -6322,7 +6322,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPublicInfoPatDetalheData-item/properties/LPUBINFOPATDETALHE"
+								"$ref": "#/components/schemas/post-BibPublicInfoPatDetalheData-item"
 							}
 						}
 					}
@@ -6468,7 +6468,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPublicSDiscGradeData-item/properties/LPublicSDiscGrade"
+								"$ref": "#/components/schemas/post-BibPublicSDiscGradeData-item"
 							}
 						}
 					}
@@ -6614,7 +6614,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPublicSDisciplinaData-item/properties/LPublicSDisciplina"
+								"$ref": "#/components/schemas/post-BibPublicSDisciplinaData-item"
 							}
 						}
 					}
@@ -6760,7 +6760,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibPublicUGradeData-item/properties/LPublicUGrade"
+								"$ref": "#/components/schemas/post-BibPublicUGradeData-item"
 							}
 						}
 					}
@@ -6906,7 +6906,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibRegraEmprestimoData-item/properties/LRegraEmprestimo"
+								"$ref": "#/components/schemas/post-BibRegraEmprestimoData-item"
 							}
 						}
 					}
@@ -7052,7 +7052,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibRemisAssData-item/properties/LRemisAss"
+								"$ref": "#/components/schemas/post-BibRemisAssData-item"
 							}
 						}
 					}
@@ -7198,7 +7198,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibRemisAutorData-item/properties/LRemisAutor"
+								"$ref": "#/components/schemas/post-BibRemisAutorData-item"
 							}
 						}
 					}
@@ -7344,7 +7344,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibRemisEdtData-item/properties/LRemisEdt"
+								"$ref": "#/components/schemas/post-BibRemisEdtData-item"
 							}
 						}
 					}
@@ -7490,7 +7490,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibReservaData-item/properties/LReserva"
+								"$ref": "#/components/schemas/post-BibReservaData-item"
 							}
 						}
 					}
@@ -7636,7 +7636,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibServicoData-item/properties/LSERVICO"
+								"$ref": "#/components/schemas/post-BibServicoData-item"
 							}
 						}
 					}
@@ -7782,7 +7782,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibSituacaoDoExemplarData-item/properties/LSITUACAOEXEMPLAR"
+								"$ref": "#/components/schemas/post-BibSituacaoDoExemplarData-item"
 							}
 						}
 					}
@@ -7928,7 +7928,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibSubAreaConData-item/properties/LSubAreaCon"
+								"$ref": "#/components/schemas/post-BibSubAreaConData-item"
 							}
 						}
 					}
@@ -8074,7 +8074,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibSugestaoCompraData-item/properties/LSugestao"
+								"$ref": "#/components/schemas/post-BibSugestaoCompraData-item"
 							}
 						}
 					}
@@ -8220,7 +8220,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibSumarioData-item/properties/LSumario"
+								"$ref": "#/components/schemas/post-BibSumarioData-item"
 							}
 						}
 					}
@@ -8366,7 +8366,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibTipoPublicData-item/properties/LTipoPublic"
+								"$ref": "#/components/schemas/post-BibTipoPublicData-item"
 							}
 						}
 					}
@@ -8512,7 +8512,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibTipoRefData-item/properties/LTipoRef"
+								"$ref": "#/components/schemas/post-BibTipoRefData-item"
 							}
 						}
 					}
@@ -8658,7 +8658,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibTipoUsuarioData-item/properties/LTipoUsuario"
+								"$ref": "#/components/schemas/post-BibTipoUsuarioData-item"
 							}
 						}
 					}
@@ -8804,7 +8804,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibUnidadeData-item/properties/LUnidade"
+								"$ref": "#/components/schemas/post-BibUnidadeData-item"
 							}
 						}
 					}
@@ -8950,7 +8950,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibUnidadeParamsProtheusData-item/properties/LUNIDADEPARAMPROTHEUS"
+								"$ref": "#/components/schemas/post-BibUnidadeParamsProtheusData-item"
 							}
 						}
 					}
@@ -9096,7 +9096,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibUnidadesUsuarioCorpData-item/properties/LRESPONSUNIDADE"
+								"$ref": "#/components/schemas/post-BibUnidadesUsuarioCorpData-item"
 							}
 						}
 					}
@@ -9242,7 +9242,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibUsuarioAreaInteresseData-item/properties/LUSUAREAINTERESSE"
+								"$ref": "#/components/schemas/post-BibUsuarioAreaInteresseData-item"
 							}
 						}
 					}
@@ -9388,7 +9388,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibUsuarioData-item/properties/LUSUARIO"
+								"$ref": "#/components/schemas/post-BibUsuarioData-item"
 							}
 						}
 					}
@@ -9534,7 +9534,7 @@
 					"content": {
 						"application/json": {
 							"schema": {
-								"$ref": "#/components/schemas/get-BibVolumeData-item/properties/LVolume"
+								"$ref": "#/components/schemas/post-BibVolumeData-item"
 							}
 						}
 					}
@@ -9675,6 +9675,20 @@
 					}
 				}
 			},
+			"post-BibAreaConData-item": {
+				"properties": {
+					"LAreaCon": {
+						"properties": {
+							"CODAREA": {
+								"type": "integer"
+							},
+							"DESCAREA": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibArtAssuntoData": {
 				"properties": {
 					"data": {
@@ -9686,6 +9700,26 @@
 				}
 			},
 			"get-BibArtAssuntoData-item": {
+				"properties": {
+					"LArtAssunto": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODASSUNTO": {
+								"type": "integer"
+							},
+							"CODARTIGO": {
+								"type": "integer"
+							},
+							"ASSUNTO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibArtAssuntoData-item": {
 				"properties": {
 					"LArtAssunto": {
 						"properties": {
@@ -9778,6 +9812,69 @@
 					}
 				}
 			},
+			"post-BibArtigoData-item": {
+				"properties": {
+					"LArtigo": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"SINTESE": {
+								"type": "string"
+							},
+							"DATAPUBLC": {
+								"type": "string"
+							},
+							"LOCALIZACAO": {
+								"type": "string"
+							}
+						}
+					},
+					"LExemplar": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"NUMTOMBO": {
+								"type": "integer"
+							},
+							"NEXEMPLAR": {
+								"type": "string"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"CODVOL": {
+								"type": "integer"
+							},
+							"DESCVOL": {
+								"type": "string"
+							},
+							"ANO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibAssRemisAssData": {
 				"properties": {
 					"data": {
@@ -9808,6 +9905,26 @@
 					}
 				}
 			},
+			"post-BibAssRemisAssData-item": {
+				"properties": {
+					"LAssRemisAss": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODREMISASS": {
+								"type": "integer"
+							},
+							"CODASSUNTO": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibAssuntoData": {
 				"properties": {
 					"data": {
@@ -9819,6 +9936,29 @@
 				}
 			},
 			"get-BibAssuntoData-item": {
+				"properties": {
+					"LAssunto": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"ASSUNTO": {
+								"type": "string"
+							},
+							"NOTAS": {
+								"type": "string"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibAssuntoData-item": {
 				"properties": {
 					"LAssunto": {
 						"properties": {
@@ -9883,6 +10023,38 @@
 					}
 				}
 			},
+			"post-BibAssuntoPubData-item": {
+				"properties": {
+					"LAssuntoPub": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODASSUNTO": {
+								"type": "integer"
+							},
+							"NUMPAGINA": {
+								"type": "integer"
+							},
+							"ORDEMCADASTRO": {
+								"type": "integer"
+							},
+							"CODVOLUME": {
+								"type": "integer"
+							},
+							"ASSUNTODESCR": {
+								"type": "string"
+							},
+							"VOLUMEDESCR": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibAutorArtData": {
 				"properties": {
 					"data": {
@@ -9894,6 +10066,32 @@
 				}
 			},
 			"get-BibAutorArtData-item": {
+				"properties": {
+					"LAutorArt": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODARTIGO": {
+								"type": "integer"
+							},
+							"CODAUTOR": {
+								"type": "integer"
+							},
+							"CODFUNCAUTOR": {
+								"type": "integer"
+							},
+							"NOME": {
+								"type": "string"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibAutorArtData-item": {
 				"properties": {
 					"LAutorArt": {
 						"properties": {
@@ -9988,6 +10186,65 @@
 					}
 				}
 			},
+			"post-BibAutorData-item": {
+				"properties": {
+					"LAutor": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"NOME": {
+								"type": "string"
+							},
+							"DTNASC": {
+								"type": "string"
+							},
+							"DTMORTE": {
+								"type": "string"
+							},
+							"NOTAS": {
+								"type": "string"
+							},
+							"IDIMAGEM": {
+								"type": "integer"
+							},
+							"EMAIL": {
+								"type": "string"
+							},
+							"HOMEPAGE": {
+								"type": "string"
+							},
+							"ANONASC": {
+								"type": "integer"
+							},
+							"ANOFAL": {
+								"type": "integer"
+							},
+							"VER": {
+								"type": "string"
+							},
+							"VERTB": {
+								"type": "string"
+							},
+							"PSEUDONIMO": {
+								"type": "string"
+							},
+							"IMAGEM": {
+								"type": "string"
+							},
+							"TIPOAUTOR": {
+								"type": "string"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibAutorFuncData": {
 				"properties": {
 					"data": {
@@ -9999,6 +10256,26 @@
 				}
 			},
 			"get-BibAutorFuncData-item": {
+				"properties": {
+					"LAutorFunc": {
+						"properties": {
+							"CODIGO": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							},
+							"AUTORPRINC": {
+								"type": "string"
+							},
+							"SIGLA": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibAutorFuncData-item": {
 				"properties": {
 					"LAutorFunc": {
 						"properties": {
@@ -10048,6 +10325,26 @@
 					}
 				}
 			},
+			"post-BibAutRemisAutData-item": {
+				"properties": {
+					"LAutRemisAut": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODREMIS": {
+								"type": "integer"
+							},
+							"CODAUTOR": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibBiometriaData": {
 				"properties": {
 					"data": {
@@ -10059,6 +10356,29 @@
 				}
 			},
 			"get-BibBiometriaData-item": {
+				"properties": {
+					"LBiometria": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODPESSOA": {
+								"type": "integer"
+							},
+							"IDBIOMETRIA": {
+								"type": "integer"
+							},
+							"BIOMETRIA": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibBiometriaData-item": {
 				"properties": {
 					"LBiometria": {
 						"properties": {
@@ -11110,6 +11430,1025 @@
 					}
 				}
 			},
+			"post-BibCadastroPublicacaoData-item": {
+				"properties": {
+					"LPublic": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"TITULOORIGINAL": {
+								"type": "string"
+							},
+							"SUBTITULO": {
+								"type": "string"
+							},
+							"CLASSIFICACAO": {
+								"type": "string"
+							},
+							"SUBCLASSIFICACAO": {
+								"type": "string"
+							},
+							"COLECAOSERIE": {
+								"type": "integer"
+							},
+							"TIPOPUBLIC": {
+								"type": "integer"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"ISBN": {
+								"type": "string"
+							},
+							"LOCALPUBLIC": {
+								"type": "integer"
+							},
+							"EDITORA": {
+								"type": "integer"
+							},
+							"ANO": {
+								"type": "string"
+							},
+							"NPAGINAS": {
+								"type": "string"
+							},
+							"ILUSTRADO": {
+								"type": "integer"
+							},
+							"MATERIALANEXO": {
+								"type": "string"
+							},
+							"COMENTARIO": {
+								"type": "string"
+							},
+							"NUMEROVOLUME": {
+								"type": "string"
+							},
+							"IDIOMA": {
+								"type": "integer"
+							},
+							"DESCRICAOFISICA": {
+								"type": "string"
+							},
+							"NUMERODEPOSITO": {
+								"type": "string"
+							},
+							"NUMEROPATENTE": {
+								"type": "string"
+							},
+							"DATADEPOSITO": {
+								"type": "string"
+							},
+							"DATAPRIVILEGIO": {
+								"type": "string"
+							},
+							"DATACONCESSAO": {
+								"type": "string"
+							},
+							"DURACAO": {
+								"type": "string"
+							},
+							"DUBLADOLEGENDADO": {
+								"type": "integer"
+							},
+							"SISTEMA": {
+								"type": "string"
+							},
+							"MUDO": {
+								"type": "integer"
+							},
+							"BITOLADIAMETRO": {
+								"type": "integer"
+							},
+							"ELENCO": {
+								"type": "string"
+							},
+							"IDIOMADUBLAGLEGENDA": {
+								"type": "integer"
+							},
+							"VELOCIDADEEXECUCAO": {
+								"type": "string"
+							},
+							"MONOSTEREO": {
+								"type": "integer"
+							},
+							"DIMENSAO": {
+								"type": "string"
+							},
+							"FORMAREPRODUCAO": {
+								"type": "string"
+							},
+							"ESCALA": {
+								"type": "string"
+							},
+							"MATERIAL": {
+								"type": "string"
+							},
+							"IDIMAGEM": {
+								"type": "integer"
+							},
+							"CLASSIFIC": {
+								"type": "string"
+							},
+							"AREACURSODEPTO": {
+								"type": "string"
+							},
+							"CODCATEGORIA": {
+								"type": "integer"
+							},
+							"CODGRUPOPUBLIC": {
+								"type": "integer"
+							},
+							"CODPERIODICIDADE": {
+								"type": "integer"
+							},
+							"CODPAIS": {
+								"type": "integer"
+							},
+							"CODESTADO": {
+								"type": "string"
+							},
+							"NIDENTIFICACAO": {
+								"type": "string"
+							},
+							"FONTE": {
+								"type": "string"
+							},
+							"RESPONSAVEL": {
+								"type": "string"
+							},
+							"ACADEMICO": {
+								"type": "string"
+							},
+							"GRAUINSTRUCAO": {
+								"type": "string"
+							},
+							"EMPRESA": {
+								"type": "string"
+							},
+							"AGENCIA": {
+								"type": "string"
+							},
+							"SECUNDAGEM": {
+								"type": "string"
+							},
+							"TIPODOC": {
+								"type": "string"
+							},
+							"TIPODISCO": {
+								"type": "string"
+							},
+							"ESPUSADO": {
+								"type": "string"
+							},
+							"ESPLIVRE": {
+								"type": "string"
+							},
+							"CAPACIDADEMAX": {
+								"type": "string"
+							},
+							"COMPRIMIDO": {
+								"type": "string"
+							},
+							"EMAIL": {
+								"type": "string"
+							},
+							"HOMEPAGE": {
+								"type": "string"
+							},
+							"NUMERO": {
+								"type": "integer"
+							},
+							"SUPLEMENTO": {
+								"type": "string"
+							},
+							"CODIGOPUBLICREF": {
+								"type": "integer"
+							},
+							"IDMEMOSINTESE": {
+								"type": "integer"
+							},
+							"IDMEMOINFOADIC": {
+								"type": "integer"
+							},
+							"IDMEMORESOBS": {
+								"type": "integer"
+							},
+							"ISSN": {
+								"type": "string"
+							},
+							"CODTIPOPER": {
+								"type": "integer"
+							},
+							"REGIAODVD": {
+								"type": "string"
+							},
+							"DOUBSIDE": {
+								"type": "string"
+							},
+							"TIPOMIDIA": {
+								"type": "string"
+							},
+							"TIPOARQ": {
+								"type": "string"
+							},
+							"PATHARQ": {
+								"type": "string"
+							},
+							"VERSAO": {
+								"type": "string"
+							},
+							"TAMANHO": {
+								"type": "string"
+							},
+							"DTINICOL": {
+								"type": "string"
+							},
+							"DTFIMCOL": {
+								"type": "string"
+							},
+							"CDDBL": {
+								"type": "string"
+							},
+							"DESCVOLCOLSER": {
+								"type": "string"
+							},
+							"COLORIDO": {
+								"type": "string"
+							},
+							"DEPOSITANTE": {
+								"type": "string"
+							},
+							"INVENTOR": {
+								"type": "string"
+							},
+							"TITULAR": {
+								"type": "string"
+							},
+							"CLASINTER": {
+								"type": "string"
+							},
+							"SIGLA": {
+								"type": "string"
+							},
+							"NUMEROPAT": {
+								"type": "string"
+							},
+							"DTDEPOSITO": {
+								"type": "string"
+							},
+							"DTPEDIDOPRIV": {
+								"type": "string"
+							},
+							"DTEXPCARTAPAT": {
+								"type": "string"
+							},
+							"ORGNORMAL": {
+								"type": "string"
+							},
+							"NUMNORMA": {
+								"type": "string"
+							},
+							"DESCFISICA": {
+								"type": "string"
+							},
+							"LIVRONUM": {
+								"type": "integer"
+							},
+							"PAGINICIAL": {
+								"type": "integer"
+							},
+							"PAGFINAL": {
+								"type": "integer"
+							},
+							"NOMEPROJ": {
+								"type": "string"
+							},
+							"GRAVADORA": {
+								"type": "string"
+							},
+							"TEMPGRAVACAO": {
+								"type": "integer"
+							},
+							"NUMERORPM": {
+								"type": "integer"
+							},
+							"NUMCANAIS": {
+								"type": "integer"
+							},
+							"NUMDISCO": {
+								"type": "integer"
+							},
+							"LARGURAMM": {
+								"type": "integer"
+							},
+							"NUMUNIDFIS": {
+								"type": "integer"
+							},
+							"EMENTAFAX": {
+								"type": "string"
+							},
+							"DTFAX": {
+								"type": "string"
+							},
+							"VALOR": {
+								"type": "number"
+							},
+							"SERIE": {
+								"type": "string"
+							},
+							"TITULOEQUIV": {
+								"type": "string"
+							},
+							"TITULOUNIF": {
+								"type": "string"
+							},
+							"CODIGOTR": {
+								"type": "integer"
+							},
+							"CODUSRINCL": {
+								"type": "string"
+							},
+							"DTHTINCL": {
+								"type": "string"
+							},
+							"CODUSRALT": {
+								"type": "string"
+							},
+							"DTHTALT": {
+								"type": "string"
+							},
+							"TIPOCLASSIFIC": {
+								"type": "string"
+							},
+							"CUTTERPHA": {
+								"type": "string"
+							},
+							"ILUSTRACOES": {
+								"type": "string"
+							},
+							"PUBLICOALVO": {
+								"type": "string"
+							},
+							"FORMAITEM": {
+								"type": "string"
+							},
+							"NATCONTEUDO": {
+								"type": "string"
+							},
+							"PUBLICGOV": {
+								"type": "string"
+							},
+							"PUBLICEVENTO": {
+								"type": "string"
+							},
+							"COLETANIAHOMENAGEM": {
+								"type": "string"
+							},
+							"INDICE": {
+								"type": "string"
+							},
+							"FORMALITERARIA": {
+								"type": "string"
+							},
+							"BIOGRAFIA": {
+								"type": "string"
+							},
+							"REGMOD": {
+								"type": "string"
+							},
+							"FONTECATALOG": {
+								"type": "string"
+							},
+							"IDMEMOGERAIS": {
+								"type": "integer"
+							},
+							"IDMEMODISSERTACAO": {
+								"type": "integer"
+							},
+							"IDMEMOBIBLIOGRAFICAS": {
+								"type": "integer"
+							},
+							"IDMEMOCONTEUDO": {
+								"type": "integer"
+							},
+							"JORNAL": {
+								"type": "string"
+							},
+							"ORGAOEMISSOR": {
+								"type": "string"
+							},
+							"TIPODEATO": {
+								"type": "string"
+							},
+							"EMENTA": {
+								"type": "string"
+							},
+							"INSTITUICAO": {
+								"type": "string"
+							},
+							"DESCTIPOPUBLIC": {
+								"type": "string"
+							},
+							"DESCGRUPOPUBLIC": {
+								"type": "string"
+							},
+							"MEMOSINTESE": {
+								"type": "string"
+							},
+							"MEMOBIBLIOGRAFICAS": {
+								"type": "string"
+							},
+							"MEMOCONTEUDO": {
+								"type": "string"
+							},
+							"MEMODISSERTACAO": {
+								"type": "string"
+							},
+							"MEMOGERAIS": {
+								"type": "string"
+							},
+							"MEMOINFOADIC": {
+								"type": "string"
+							},
+							"MEMOOBS": {
+								"type": "string"
+							},
+							"IMAGEM": {
+								"type": "string"
+							},
+							"DESCRICAO_TP": {
+								"type": "string"
+							},
+							"DESCRICAO_GP": {
+								"type": "string"
+							},
+							"DATADEFESA": {
+								"type": "string"
+							},
+							"IDPRD": {
+								"type": "integer"
+							},
+							"NUMPERCCN": {
+								"type": "string"
+							},
+							"SITPUBLIC": {
+								"type": "string"
+							},
+							"ANOFINAL": {
+								"type": "string"
+							},
+							"COLECAO": {
+								"type": "string"
+							},
+							"CODAUTOR": {
+								"type": "integer"
+							},
+							"NFOLHAS": {
+								"type": "integer"
+							},
+							"PERIODICO": {
+								"type": "string"
+							},
+							"SISTEMAFITA": {
+								"type": "string"
+							},
+							"NOMEEVENTO": {
+								"type": "string"
+							},
+							"ANOEVENTO": {
+								"type": "string"
+							},
+							"LOCALEVENTO": {
+								"type": "string"
+							},
+							"JURISDICAONORMA": {
+								"type": "string"
+							},
+							"FRASEPUBLICSEMTITULO": {
+								"type": "string"
+							},
+							"HOMEPAGEACESSO": {
+								"type": "string"
+							},
+							"PRODUCAO": {
+								"type": "string"
+							},
+							"DIRECAO": {
+								"type": "string"
+							},
+							"TIPOFITA": {
+								"type": "string"
+							},
+							"NUMPASTA": {
+								"type": "string"
+							},
+							"NUMSLIDES": {
+								"type": "integer"
+							},
+							"ORIENTADORRESP": {
+								"type": "string"
+							},
+							"SERIESELO": {
+								"type": "string"
+							},
+							"CODTIPOMATERIAL": {
+								"type": "integer"
+							},
+							"CODTIPODESCFIS": {
+								"type": "integer"
+							},
+							"CODAGENCIACATALOG": {
+								"type": "string"
+							},
+							"DESIGNACAOESPECIFICA": {
+								"type": "string"
+							},
+							"CORMATERIAL": {
+								"type": "string"
+							},
+							"FORMATOFILME": {
+								"type": "string"
+							},
+							"SOMINCORPORADO": {
+								"type": "string"
+							},
+							"MEIOSONORO": {
+								"type": "string"
+							},
+							"CONFIGCANAIS": {
+								"type": "string"
+							},
+							"ELEMENTOSPRODUCAO": {
+								"type": "string"
+							},
+							"GERACAO": {
+								"type": "string"
+							},
+							"BASEFILME": {
+								"type": "string"
+							},
+							"CATEGORIASCOR": {
+								"type": "string"
+							},
+							"TIPOFILMECOLORIDO": {
+								"type": "string"
+							},
+							"GRAUDETERIORACAO": {
+								"type": "string"
+							},
+							"COMPLETEZA": {
+								"type": "string"
+							},
+							"DATAINSPECAOFILME": {
+								"type": "string"
+							},
+							"ASPECTOS": {
+								"type": "string"
+							},
+							"DIMENSOESMATERIAL": {
+								"type": "string"
+							},
+							"TIPOREPRODUCAO": {
+								"type": "string"
+							},
+							"DETALHESPRODUCAO": {
+								"type": "string"
+							},
+							"SUPORTEFISICO": {
+								"type": "string"
+							},
+							"PROFUNDIDADEBITS": {
+								"type": "string"
+							},
+							"FORMATOARQUIVO": {
+								"type": "string"
+							},
+							"GARANTIAQUALIDADE": {
+								"type": "string"
+							},
+							"ANTECEDENTE": {
+								"type": "string"
+							},
+							"NIVELCOMPACTACAO": {
+								"type": "string"
+							},
+							"QUALIDADEREFORMATACAO": {
+								"type": "string"
+							},
+							"CLASSEESCRITABRAILE": {
+								"type": "string"
+							},
+							"NIVELCONTRACAO": {
+								"type": "string"
+							},
+							"FORMATOMUSICABRAILE": {
+								"type": "string"
+							},
+							"CARACTERISTICASESPECIAIS": {
+								"type": "string"
+							},
+							"MATERIALSUPORTEPRIMARIO": {
+								"type": "string"
+							},
+							"BASEEMULSAO": {
+								"type": "string"
+							},
+							"MATERIALSUPORTESECUNDARIO": {
+								"type": "string"
+							},
+							"NIVELREDUCAO": {
+								"type": "string"
+							},
+							"PROPORCAOREDUCAO": {
+								"type": "string"
+							},
+							"EMULSAOFILME": {
+								"type": "string"
+							},
+							"GERACAOMICROFORMA": {
+								"type": "string"
+							},
+							"ALTITUDESENSOR": {
+								"type": "string"
+							},
+							"POSICAOSENSOR": {
+								"type": "string"
+							},
+							"GRAUNEBULOSIDADE": {
+								"type": "string"
+							},
+							"TIPOPLATAFORMA": {
+								"type": "string"
+							},
+							"CATEGORIAUSOPLATAFORMA": {
+								"type": "string"
+							},
+							"TIPOSENSOR": {
+								"type": "string"
+							},
+							"TIPODADOSENSOR": {
+								"type": "string"
+							},
+							"VELOCIDADEREPRODUCAO": {
+								"type": "string"
+							},
+							"PONTOENCAIXE": {
+								"type": "string"
+							},
+							"LARGURAFITA": {
+								"type": "string"
+							},
+							"CONFIGFITA": {
+								"type": "string"
+							},
+							"TIPODISCOGRAVACAO": {
+								"type": "string"
+							},
+							"TIPOMATERIALGRAVACAO": {
+								"type": "string"
+							},
+							"TIPOGRAVACAO": {
+								"type": "string"
+							},
+							"CARACTERISTICASPLAYBACK": {
+								"type": "string"
+							},
+							"TECNICACAPTURASOM": {
+								"type": "string"
+							},
+							"NIVELBIBLIOGRAFICO": {
+								"type": "string"
+							},
+							"TIPOARQUIVOCPU": {
+								"type": "string"
+							},
+							"RELEVO": {
+								"type": "string"
+							},
+							"PROJECAO": {
+								"type": "string"
+							},
+							"TIPOMATCARTOGRAFICO": {
+								"type": "string"
+							},
+							"FORMACOMPOSICAO": {
+								"type": "string"
+							},
+							"FORMATOMUSICA": {
+								"type": "string"
+							},
+							"MATACOMPANHAMUSICA": {
+								"type": "string"
+							},
+							"TEXTOGRAVACAOSOM": {
+								"type": "string"
+							},
+							"TRANSPOSICAO": {
+								"type": "string"
+							},
+							"REGULARIDADE": {
+								"type": "string"
+							},
+							"TIPORECURSOCONTINUO": {
+								"type": "string"
+							},
+							"FORMADOCUMENTOORIGINAL": {
+								"type": "string"
+							},
+							"NATUREZAOBRA": {
+								"type": "string"
+							},
+							"ALFABETOORIGINAL": {
+								"type": "string"
+							},
+							"CONVENCAOENTRADA": {
+								"type": "string"
+							},
+							"TIPOMATERIALVISUAL": {
+								"type": "string"
+							},
+							"TECNICAVISUAL": {
+								"type": "string"
+							},
+							"NIVELREGISTRORECURSO": {
+								"type": "string"
+							},
+							"FORMACATALOGACAO": {
+								"type": "string"
+							},
+							"NIVELCODIFICACAO": {
+								"type": "string"
+							},
+							"TIPOCONTROLE": {
+								"type": "string"
+							},
+							"COR": {
+								"type": "string"
+							},
+							"COORDENACAO": {
+								"type": "string"
+							},
+							"NOMEARQUIVO": {
+								"type": "string"
+							},
+							"INTERPRETES": {
+								"type": "string"
+							},
+							"ROTEIRO": {
+								"type": "string"
+							},
+							"EDITOR": {
+								"type": "string"
+							}
+						}
+					},
+					"LMemo": {
+						"properties": {
+							"ID": {
+								"type": "integer"
+							},
+							"VALMEMO": {
+								"type": "string"
+							}
+						}
+					},
+					"LPublicCompl": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"RECCREATEDBY": {
+								"type": "string"
+							},
+							"RECCREATEDON": {
+								"type": "string"
+							},
+							"RECMODIFIEDBY": {
+								"type": "string"
+							},
+							"RECMODIFIEDON": {
+								"type": "string"
+							}
+						}
+					},
+					"GIMAGEM": {
+						"properties": {
+							"ID": {
+								"type": "integer"
+							},
+							"CODSISTEMA": {
+								"type": "string"
+							},
+							"IMAGEM": {
+								"type": "string"
+							}
+						}
+					},
+					"LIdiomaPublic": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODIDIOMA": {
+								"type": "integer"
+							},
+							"TIPOIDIOMA": {
+								"type": "string"
+							},
+							"IDIOMA": {
+								"type": "string"
+							}
+						}
+					},
+					"LAssinaturaPer": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"DATAINI": {
+								"type": "string"
+							},
+							"DATAFIM": {
+								"type": "string"
+							},
+							"CODPERIODICO": {
+								"type": "integer"
+							},
+							"PRECO": {
+								"type": "number"
+							},
+							"NEXEMPLARES": {
+								"type": "integer"
+							},
+							"EDICAOINI": {
+								"type": "integer"
+							},
+							"EDICAOFIM": {
+								"type": "integer"
+							},
+							"CODASSINANTE": {
+								"type": "string"
+							},
+							"ATIVA": {
+								"type": "string"
+							},
+							"CODCFO": {
+								"type": "string"
+							},
+							"ATIVACAPTION": {
+								"type": "string"
+							},
+							"DATAPRIEXEMP": {
+								"type": "string"
+							},
+							"CODCOLCFO": {
+								"type": "integer"
+							}
+						}
+					},
+					"LUsrLeituraPer": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"ORDEMLEITPER": {
+								"type": "integer"
+							},
+							"NOME": {
+								"type": "string"
+							},
+							"MAXORDEMLEITPER": {
+								"type": "string"
+							}
+						}
+					},
+					"LPeriodico": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"DTPREVCHEGADA": {
+								"type": "string"
+							},
+							"DTRECEB": {
+								"type": "string"
+							},
+							"STATUS": {
+								"type": "string"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"NEXEMPLAR": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODCFO": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODASSINATURAPER": {
+								"type": "integer"
+							},
+							"CODCOLCFO": {
+								"type": "integer"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"MAIORCODIGO": {
+								"type": "integer"
+							},
+							"RECCREATEDON": {
+								"type": "string"
+							},
+							"RECCREATEDBY": {
+								"type": "string"
+							},
+							"RECMODIFIEDBY": {
+								"type": "string"
+							},
+							"RECMODIFIEDON": {
+								"type": "string"
+							}
+						}
+					},
+					"LPubAnalit": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUB": {
+								"type": "integer"
+							},
+							"CODPUBANALIT": {
+								"type": "integer"
+							},
+							"TITULO": {
+								"type": "string"
+							}
+						}
+					},
+					"LARQUIVOSPUBLIC": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"NOMEARQUIVO": {
+								"type": "string"
+							},
+							"DATAENVIO": {
+								"type": "string"
+							},
+							"ARQUIVO": {
+								"type": "string"
+							},
+							"PERMITEBAIXAR": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibCategoriaData": {
 				"properties": {
 					"data": {
@@ -11137,6 +12476,23 @@
 					}
 				}
 			},
+			"post-BibCategoriaData-item": {
+				"properties": {
+					"LCategoria": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibClasseValorProtheusData": {
 				"properties": {
 					"data": {
@@ -11148,6 +12504,23 @@
 				}
 			},
 			"get-BibClasseValorProtheusData-item": {
+				"properties": {
+					"CTH": {
+						"properties": {
+							"CTH_FILIAL": {
+								"type": "string"
+							},
+							"CTH_CLVL": {
+								"type": "string"
+							},
+							"CTH_DESC01": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibClasseValorProtheusData-item": {
 				"properties": {
 					"CTH": {
 						"properties": {
@@ -11197,6 +12570,29 @@
 					}
 				}
 			},
+			"post-BibColecaoSerieData-item": {
+				"properties": {
+					"LColecaoSerie": {
+						"properties": {
+							"CODIGO": {
+								"type": "integer"
+							},
+							"ANOINICIO": {
+								"type": "string"
+							},
+							"ANOFIM": {
+								"type": "string"
+							},
+							"COLECAO": {
+								"type": "string"
+							},
+							"SERIE": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibCutterData": {
 				"properties": {
 					"data": {
@@ -11208,6 +12604,26 @@
 				}
 			},
 			"get-BibCutterData-item": {
+				"properties": {
+					"LCutter": {
+						"properties": {
+							"CODIGO": {
+								"type": "integer"
+							},
+							"NCUTTER": {
+								"type": "integer"
+							},
+							"REFAUTOR": {
+								"type": "string"
+							},
+							"NATREF": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibCutterData-item": {
 				"properties": {
 					"LCutter": {
 						"properties": {
@@ -11311,6 +12727,80 @@
 					}
 				}
 			},
+			"post-BibEditoraData-item": {
+				"properties": {
+					"LEditora": {
+						"properties": {
+							"CODIGO": {
+								"type": "integer"
+							},
+							"EDITOR": {
+								"type": "string"
+							},
+							"CONTATO": {
+								"type": "string"
+							},
+							"RAZAOSOCIAL": {
+								"type": "string"
+							},
+							"CGC": {
+								"type": "string"
+							},
+							"INSCRICAO": {
+								"type": "string"
+							},
+							"LOGRADOURO": {
+								"type": "string"
+							},
+							"NUMERO": {
+								"type": "string"
+							},
+							"COMPLEMENTO": {
+								"type": "string"
+							},
+							"BAIRRO": {
+								"type": "string"
+							},
+							"CIDADE": {
+								"type": "string"
+							},
+							"ESTADO": {
+								"type": "string"
+							},
+							"CEP": {
+								"type": "string"
+							},
+							"TELEFONE1": {
+								"type": "string"
+							},
+							"TELEFONE2": {
+								"type": "string"
+							},
+							"TELEFONE3": {
+								"type": "string"
+							},
+							"FAX": {
+								"type": "string"
+							},
+							"EMAIL": {
+								"type": "string"
+							},
+							"OBSERVACOES": {
+								"type": "string"
+							},
+							"CODPAIS": {
+								"type": "integer"
+							},
+							"HOMEPAGE": {
+								"type": "string"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibEdtRemisEdtData": {
 				"properties": {
 					"data": {
@@ -11338,6 +12828,23 @@
 					}
 				}
 			},
+			"post-BibEdtRemisEdtData-item": {
+				"properties": {
+					"LEdtRemisEdt": {
+						"properties": {
+							"CODREMISEDT": {
+								"type": "integer"
+							},
+							"CODEDITORA": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibEmprestimosPendentesData": {
 				"properties": {
 					"data": {
@@ -11349,6 +12856,156 @@
 				}
 			},
 			"get-BibEmprestimosPendentesData-item": {
+				"properties": {
+					"LEmprestimosPeriodo": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"STATUSEMP": {
+								"type": "string"
+							},
+							"DTHREMPRESTIMO": {
+								"type": "string"
+							},
+							"DTHRDEVPREVISTA": {
+								"type": "string"
+							},
+							"DTHRRESERVA": {
+								"type": "string"
+							},
+							"DTHRDEVEFETIVA": {
+								"type": "string"
+							},
+							"VALOREMP": {
+								"type": "number"
+							},
+							"VALORMULTA": {
+								"type": "number"
+							},
+							"CODRESERVA": {
+								"type": "integer"
+							},
+							"DIASSUSPENSO": {
+								"type": "integer"
+							},
+							"VALTOTEMP": {
+								"type": "number"
+							},
+							"RESPONSAVEL": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"EMPLOCAL": {
+								"type": "string"
+							},
+							"RESPONSAVELDEV": {
+								"type": "string"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							},
+							"QTDRENOVACAOSIST": {
+								"type": "string"
+							}
+						}
+					},
+					"LEmprestimosPendentes": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"STATUSEMP": {
+								"type": "string"
+							},
+							"DTHREMPRESTIMO": {
+								"type": "string"
+							},
+							"DTHRDEVPREVISTA": {
+								"type": "string"
+							},
+							"DTHRRESERVA": {
+								"type": "string"
+							},
+							"DTHRDEVEFETIVA": {
+								"type": "string"
+							},
+							"VALOREMP": {
+								"type": "number"
+							},
+							"VALORMULTA": {
+								"type": "number"
+							},
+							"CODRESERVA": {
+								"type": "integer"
+							},
+							"DIASSUSPENSO": {
+								"type": "integer"
+							},
+							"VALTOTEMP": {
+								"type": "number"
+							},
+							"RESPONSAVEL": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"EMPLOCAL": {
+								"type": "string"
+							},
+							"RESPONSAVELDEV": {
+								"type": "string"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							},
+							"QTDRENOVACAOSIST": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibEmprestimosPendentesData-item": {
 				"properties": {
 					"LEmprestimosPeriodo": {
 						"properties": {
@@ -11639,6 +13296,137 @@
 					}
 				}
 			},
+			"post-BibEmprestimosWinData-item": {
+				"properties": {
+					"LEMPRESTIMOS": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"STATUSEMP": {
+								"type": "string"
+							},
+							"PODERENOVAREMPATRASADO": {
+								"type": "string"
+							},
+							"DTHREMPRESTIMO": {
+								"type": "string"
+							},
+							"DTHRDEVPREVISTA": {
+								"type": "string"
+							},
+							"DTHRRESERVA": {
+								"type": "string"
+							},
+							"DTHRDEVEFETIVA": {
+								"type": "string"
+							},
+							"VALOREMP": {
+								"type": "number"
+							},
+							"VALORMULTA": {
+								"type": "number"
+							},
+							"CODRESERVA": {
+								"type": "integer"
+							},
+							"DIASSUSPENSO": {
+								"type": "integer"
+							},
+							"VALTOTEMP": {
+								"type": "number"
+							},
+							"RESPONSAVEL": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"EMPLOCAL": {
+								"type": "string"
+							},
+							"RESPONSAVELDEV": {
+								"type": "string"
+							},
+							"OBSERVACAO": {
+								"type": "string"
+							},
+							"RENOVACAO": {
+								"type": "string"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"NUMTOMBO": {
+								"type": "integer"
+							},
+							"NOME": {
+								"type": "string"
+							},
+							"MATCOD": {
+								"type": "string"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							},
+							"CODAUXILIAR": {
+								"type": "string"
+							},
+							"RESERVA": {
+								"type": "string"
+							},
+							"DIASHORAATRASO": {
+								"type": "string"
+							},
+							"VALORTOTALMULTA": {
+								"type": "string"
+							},
+							"VALORTOTALEMPRESTIMO": {
+								"type": "string"
+							},
+							"TOTALDIASSUSPENSAO": {
+								"type": "string"
+							},
+							"ANO": {
+								"type": "string"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"VALOREMPRESTIMONAREGRA": {
+								"type": "number"
+							},
+							"NOMEFILIAL": {
+								"type": "string"
+							},
+							"NOMEUNIDADE": {
+								"type": "string"
+							},
+							"ISFASCICULO": {
+								"type": "string"
+							},
+							"CODPESSOA": {
+								"type": "integer"
+							}
+						}
+					}
+				}
+			},
 			"get-BibExempArtData": {
 				"properties": {
 					"data": {
@@ -11650,6 +13438,56 @@
 				}
 			},
 			"get-BibExempArtData-item": {
+				"properties": {
+					"LExempArt": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODARTIGO": {
+								"type": "integer"
+							},
+							"PAGINAART": {
+								"type": "integer"
+							},
+							"PAGINAARTFIM": {
+								"type": "integer"
+							},
+							"NUMTOMBO": {
+								"type": "integer"
+							},
+							"NEXEMPLAR": {
+								"type": "string"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"ANO": {
+								"type": "string"
+							},
+							"DESCVOL": {
+								"type": "string"
+							},
+							"TITULO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibExempArtData-item": {
 				"properties": {
 					"LExempArt": {
 						"properties": {
@@ -11750,6 +13588,47 @@
 					}
 				}
 			},
+			"post-BibExempArtigoData-item": {
+				"properties": {
+					"LExempArt": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODARTIGO": {
+								"type": "integer"
+							},
+							"PAGINAART": {
+								"type": "integer"
+							},
+							"PAGINAARTFIM": {
+								"type": "integer"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"DATAPUBLC": {
+								"type": "string"
+							},
+							"MATERIAPRINCIPAL": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibExemplarData": {
 				"properties": {
 					"data": {
@@ -11761,6 +13640,179 @@
 				}
 			},
 			"get-BibExemplarData-item": {
+				"properties": {
+					"LExemplar": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"REGISTRO": {
+								"type": "string"
+							},
+							"DTREGISTRO": {
+								"type": "string"
+							},
+							"DTBAIXA": {
+								"type": "string"
+							},
+							"NTOMBO": {
+								"type": "string"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"LOCALIZACAO": {
+								"type": "string"
+							},
+							"TIPOAQUISICAO": {
+								"type": "string"
+							},
+							"VALORAQUISICAO": {
+								"type": "number"
+							},
+							"NEXEMPLAR": {
+								"type": "string"
+							},
+							"MOEDA": {
+								"type": "string"
+							},
+							"JUSTIFICABAIXA": {
+								"type": "string"
+							},
+							"BAIXADO": {
+								"type": "string"
+							},
+							"BLOQEMP": {
+								"type": "string"
+							},
+							"TOMO": {
+								"type": "string"
+							},
+							"CODVOL": {
+								"type": "integer"
+							},
+							"CODCFO": {
+								"type": "string"
+							},
+							"CODPERIODICO": {
+								"type": "integer"
+							},
+							"DISPONIVEL": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"IDMEMORESUMO": {
+								"type": "integer"
+							},
+							"ANO": {
+								"type": "string"
+							},
+							"NPAGINA": {
+								"type": "string"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"DTCOMPRA": {
+								"type": "string"
+							},
+							"NFISCAL": {
+								"type": "integer"
+							},
+							"OBSAQUISICAO": {
+								"type": "string"
+							},
+							"MATERIALANEXO": {
+								"type": "string"
+							},
+							"NUMEXETP": {
+								"type": "integer"
+							},
+							"NUMTOMBO": {
+								"type": "integer"
+							},
+							"NOBRA": {
+								"type": "integer"
+							},
+							"CODUSRINCL": {
+								"type": "string"
+							},
+							"DTHTINCL": {
+								"type": "string"
+							},
+							"CODUSRALT": {
+								"type": "string"
+							},
+							"DTHTALT": {
+								"type": "string"
+							},
+							"EDTCOMPL": {
+								"type": "string"
+							},
+							"DTHORAINC": {
+								"type": "string"
+							},
+							"NEXEMPPER": {
+								"type": "integer"
+							},
+							"MES": {
+								"type": "string"
+							},
+							"COMPRIMENTO": {
+								"type": "number"
+							},
+							"UNCOMP": {
+								"type": "string"
+							},
+							"ALTURA": {
+								"type": "number"
+							},
+							"UNALT": {
+								"type": "string"
+							},
+							"LARGURA": {
+								"type": "number"
+							},
+							"UNLARG": {
+								"type": "string"
+							},
+							"PESO": {
+								"type": "number"
+							},
+							"UNPESO": {
+								"type": "string"
+							},
+							"CODCOLCFO": {
+								"type": "integer"
+							},
+							"CODAUXILIAR": {
+								"type": "string"
+							},
+							"CODBEM": {
+								"type": "string"
+							},
+							"ISBN": {
+								"type": "string"
+							},
+							"DESCVOL": {
+								"type": "string"
+							},
+							"TITULO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibExemplarData-item": {
 				"properties": {
 					"LExemplar": {
 						"properties": {
@@ -11993,6 +14045,56 @@
 					}
 				}
 			},
+			"post-BibFasciculoData-item": {
+				"properties": {
+					"LFASCICULO": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODCOLIGADAFASC": {
+								"type": "integer"
+							},
+							"CODPUBLICFASC": {
+								"type": "integer"
+							},
+							"CODEXEMPLARFASC": {
+								"type": "integer"
+							},
+							"CODFILIALFASC": {
+								"type": "integer"
+							},
+							"CODUNIDADEFASC": {
+								"type": "integer"
+							},
+							"RECCREATEDBY": {
+								"type": "string"
+							},
+							"RECCREATEDON": {
+								"type": "string"
+							},
+							"RECMODIFIEDBY": {
+								"type": "string"
+							},
+							"RECMODIFIEDON": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibFonteData": {
 				"properties": {
 					"data": {
@@ -12020,6 +14122,23 @@
 					}
 				}
 			},
+			"post-BibFonteData-item": {
+				"properties": {
+					"LFonte": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"NOMEFONTE": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibGrupoPublicData": {
 				"properties": {
 					"data": {
@@ -12031,6 +14150,23 @@
 				}
 			},
 			"get-BibGrupoPublicData-item": {
+				"properties": {
+					"LGrupoPublic": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibGrupoPublicData-item": {
 				"properties": {
 					"LGrupoPublic": {
 						"properties": {
@@ -12194,6 +14330,143 @@
 					}
 				}
 			},
+			"post-BibHistoricoEmprestimosData-item": {
+				"properties": {
+					"LEMPRESTIMOS": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"STATUSEMP": {
+								"type": "string"
+							},
+							"PODERENOVAREMPATRASADO": {
+								"type": "string"
+							},
+							"DTHREMPRESTIMO": {
+								"type": "string"
+							},
+							"DTHRDEVPREVISTA": {
+								"type": "string"
+							},
+							"DTHRRESERVA": {
+								"type": "string"
+							},
+							"DTHRDEVEFETIVA": {
+								"type": "string"
+							},
+							"VALOREMP": {
+								"type": "number"
+							},
+							"VALORMULTA": {
+								"type": "number"
+							},
+							"CODRESERVA": {
+								"type": "integer"
+							},
+							"DIASSUSPENSO": {
+								"type": "integer"
+							},
+							"VALTOTEMP": {
+								"type": "number"
+							},
+							"RESPONSAVEL": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"EMPLOCAL": {
+								"type": "string"
+							},
+							"RESPONSAVELDEV": {
+								"type": "string"
+							},
+							"OBSERVACAO": {
+								"type": "string"
+							},
+							"RENOVACAO": {
+								"type": "string"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"NUMTOMBO": {
+								"type": "integer"
+							},
+							"NOME": {
+								"type": "string"
+							},
+							"MATCOD": {
+								"type": "string"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							},
+							"CODAUXILIAR": {
+								"type": "string"
+							},
+							"RESERVA": {
+								"type": "string"
+							},
+							"DIASHORAATRASO": {
+								"type": "string"
+							},
+							"VALORTOTALMULTA": {
+								"type": "string"
+							},
+							"VALORTOTALEMPRESTIMO": {
+								"type": "string"
+							},
+							"TOTALDIASSUSPENSAO": {
+								"type": "string"
+							},
+							"ANO": {
+								"type": "string"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"VALOREMPRESTIMONAREGRA": {
+								"type": "number"
+							},
+							"NOMEFILIAL": {
+								"type": "string"
+							},
+							"NOMEUNIDADE": {
+								"type": "string"
+							},
+							"ISFASCICULO": {
+								"type": "string"
+							},
+							"CODGRUPOPUBLIC": {
+								"type": "integer"
+							},
+							"TIPOUSUARIO": {
+								"type": "integer"
+							},
+							"CODPESSOA": {
+								"type": "integer"
+							}
+						}
+					}
+				}
+			},
 			"get-BibIdiomasData": {
 				"properties": {
 					"data": {
@@ -12205,6 +14478,23 @@
 				}
 			},
 			"get-BibIdiomasData-item": {
+				"properties": {
+					"LIdiomas": {
+						"properties": {
+							"CODIGO": {
+								"type": "integer"
+							},
+							"IDIOMA": {
+								"type": "string"
+							},
+							"ABREVIACAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibIdiomasData-item": {
 				"properties": {
 					"LIdiomas": {
 						"properties": {
@@ -12282,6 +14572,57 @@
 					}
 				}
 			},
+			"post-BibItemAutorData-item": {
+				"properties": {
+					"LItemAutor": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODITEM": {
+								"type": "integer"
+							},
+							"CODAUTOR": {
+								"type": "integer"
+							},
+							"FUNCAUTOR": {
+								"type": "integer"
+							},
+							"CODAUTORFUNC": {
+								"type": "integer"
+							},
+							"NOMEAUTOR": {
+								"type": "string"
+							},
+							"ORDEMCADASTRO": {
+								"type": "integer"
+							},
+							"TIPOAUTOR": {
+								"type": "string"
+							}
+						}
+					},
+					"LFUNCAOAUTORITEM": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODITEM": {
+								"type": "integer"
+							},
+							"CODAUTOR": {
+								"type": "integer"
+							},
+							"CODAUTORFUNC": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibItemContabilProtheusData": {
 				"properties": {
 					"data": {
@@ -12293,6 +14634,23 @@
 				}
 			},
 			"get-BibItemContabilProtheusData-item": {
+				"properties": {
+					"CTD": {
+						"properties": {
+							"CTD_FILIAL": {
+								"type": "string"
+							},
+							"CTD_ITEM": {
+								"type": "string"
+							},
+							"CTD_DESC01": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibItemContabilProtheusData-item": {
 				"properties": {
 					"CTD": {
 						"properties": {
@@ -12333,6 +14691,20 @@
 					}
 				}
 			},
+			"post-BibLeitorBiometricoData-item": {
+				"properties": {
+					"LBioVeriFinger": {
+						"properties": {
+							"SERIALNUMBER": {
+								"type": "string"
+							},
+							"REGISTRATIONKEY": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibLocalPubData": {
 				"properties": {
 					"data": {
@@ -12357,6 +14729,20 @@
 					}
 				}
 			},
+			"post-BibLocalPubData-item": {
+				"properties": {
+					"LLocalPub": {
+						"properties": {
+							"CODIGO": {
+								"type": "integer"
+							},
+							"LOCAL": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibMovimentacaoWSDevRenCan": {
 				"properties": {
 					"data": {
@@ -12368,6 +14754,221 @@
 				}
 			},
 			"get-BibMovimentacaoWSDevRenCan-item": {
+				"properties": {
+					"DEVRENCAN": {
+						"properties": {
+							"TIPOMOVIMENTACAO": {
+								"type": "string"
+							},
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"RENOVACAO": {
+								"type": "boolean"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"RESERVADO": {
+								"type": "string"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"DATAEMPRESTIMO": {
+								"type": "string"
+							},
+							"NUMTOMBO": {
+								"type": "integer"
+							},
+							"ANO": {
+								"type": "string"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"TIPOPUBLICACAO": {
+								"type": "string"
+							},
+							"DATADEVOLUCAOPREVISTA": {
+								"type": "string"
+							},
+							"DATADEVOLUCAOEFETIVA": {
+								"type": "string"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"CODPESSOA": {
+								"type": "integer"
+							},
+							"NOMEUSUARIO": {
+								"type": "string"
+							},
+							"PODERENOVAR": {
+								"type": "boolean"
+							},
+							"RENOVAREMPRESTIMO": {
+								"type": "boolean"
+							},
+							"BLOQUEAREMPRESTIMOATRASADO": {
+								"type": "boolean"
+							},
+							"CANCELAREMPRESTIMO": {
+								"type": "boolean"
+							},
+							"DESCTIPOUSUARIO": {
+								"type": "string"
+							},
+							"STATUSEMPRESTIMO": {
+								"type": "string"
+							},
+							"VALOREMPRESTIMO": {
+								"type": "number"
+							},
+							"TIPOPRAZO": {
+								"type": "string"
+							},
+							"DIAHORAATRASO": {
+								"type": "string"
+							},
+							"VALORTOTALMULTA": {
+								"type": "number"
+							},
+							"VALORTOTALMULTAAGRUP": {
+								"type": "number"
+							},
+							"VALORMULTA": {
+								"type": "number"
+							},
+							"VALORABONOMULTA": {
+								"type": "number"
+							},
+							"VALORDESCONTOMULTA": {
+								"type": "number"
+							},
+							"VALORTOTALEMPRESTIMO": {
+								"type": "number"
+							},
+							"SUSPENSAOUSODIA": {
+								"type": "integer"
+							},
+							"TOTALDIASSUSPENSAO": {
+								"type": "integer"
+							},
+							"EXEMPLARBLOQUEADO": {
+								"type": "string"
+							},
+							"CONSULTAEXTERNA": {
+								"type": "boolean"
+							},
+							"CODCLIENTEFORNECEDOR": {
+								"type": "string"
+							},
+							"CODCOLIGADACLIENTEFORNECEDOR": {
+								"type": "integer"
+							},
+							"IDLAN": {
+								"type": "integer"
+							},
+							"IMPRESSO": {
+								"type": "boolean"
+							},
+							"ISFASCICULO": {
+								"type": "boolean"
+							},
+							"QTDRENOVACAOSIST": {
+								"type": "integer"
+							},
+							"FLAGGEROULANCAMENTO": {
+								"type": "boolean"
+							},
+							"CODEMPRESTIMOHISTORICO": {
+								"type": "string"
+							},
+							"EXIBIRSITUACAODEV": {
+								"type": "string"
+							},
+							"INFOADICIONAISEXEMPLAR": {
+								"type": "string"
+							},
+							"SITUACAOEXEMPLAR": {
+								"type": "string"
+							},
+							"ISALUNOCLASSISES": {
+								"type": "boolean"
+							},
+							"SERVICO": {
+								"type": "integer"
+							},
+							"PARCELA": {
+								"type": "integer"
+							},
+							"COTA": {
+								"type": "integer"
+							},
+							"VALOREMPRESTIMOBOLETOCLASSIS": {
+								"type": "number"
+							},
+							"CODRESERVA": {
+								"type": "integer"
+							},
+							"CODTIPOUSUARIO": {
+								"type": "integer"
+							},
+							"CODEMPRESTIMO": {
+								"type": "integer"
+							},
+							"CODEMPRESTIMOPRINCIPAL": {
+								"type": "integer"
+							},
+							"CODAUXILIAR": {
+								"type": "string"
+							},
+							"RESPONSAVEL": {
+								"type": "string"
+							},
+							"NOMEFILIAL": {
+								"type": "string"
+							},
+							"NOMEUNIDADE": {
+								"type": "string"
+							},
+							"GRUPOPUBLICACAO": {
+								"type": "string"
+							},
+							"MATRICULA": {
+								"type": "string"
+							},
+							"CODUSUARIORM": {
+								"type": "string"
+							},
+							"IDPERLET": {
+								"type": "integer"
+							},
+							"CODTIPOCURSO": {
+								"type": "integer"
+							},
+							"CODFILIALMATRIC": {
+								"type": "integer"
+							}
+						}
+					}
+				}
+			},
+			"post-BibMovimentacaoWSDevRenCan-item": {
 				"properties": {
 					"DEVRENCAN": {
 						"properties": {
@@ -12717,6 +15318,131 @@
 					}
 				}
 			},
+			"post-BibMovimentacaoWSEmprestimo-item": {
+				"properties": {
+					"EMPRESTIMO": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"NUMTOMBO": {
+								"type": "integer"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"RENOVACAO": {
+								"type": "boolean"
+							},
+							"CODVOLUME": {
+								"type": "integer"
+							},
+							"DESCVOLUME": {
+								"type": "string"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"ANO": {
+								"type": "string"
+							},
+							"VALOREMPRESTIMO": {
+								"type": "number"
+							},
+							"CONSULTAINTERNA": {
+								"type": "boolean"
+							},
+							"CONSULTAEXTERNA": {
+								"type": "boolean"
+							},
+							"TIPOPUBLICACAO": {
+								"type": "integer"
+							},
+							"CODTIPOPUBLIC": {
+								"type": "integer"
+							},
+							"DESCTIPOPUBLIC": {
+								"type": "string"
+							},
+							"COLIGADAUSUARIO": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"CODPESSOA": {
+								"type": "integer"
+							},
+							"DATAEMPRESTIMO": {
+								"type": "string"
+							},
+							"DATADEVOLUCAOPREVISTA": {
+								"type": "string"
+							},
+							"DATARESERVA": {
+								"type": "string"
+							},
+							"STATUS": {
+								"type": "string"
+							},
+							"TIPOUSUARIO": {
+								"type": "integer"
+							},
+							"CODRESERVA": {
+								"type": "integer"
+							},
+							"TIPOPRAZO": {
+								"type": "string"
+							},
+							"CODGRUPOPUBLIC": {
+								"type": "integer"
+							},
+							"PRAZO": {
+								"type": "integer"
+							},
+							"NOMEFILIALEXEMPLAR": {
+								"type": "string"
+							},
+							"NOMEUNIDADEEXEMPLAR": {
+								"type": "string"
+							},
+							"ISFASCICULO": {
+								"type": "boolean"
+							},
+							"ISALUNO": {
+								"type": "boolean"
+							},
+							"CODUSUARIORESERVA": {
+								"type": "integer"
+							},
+							"COLIGADAEXEMPLAR": {
+								"type": "integer"
+							},
+							"GRUPOPUBLICACAO": {
+								"type": "string"
+							},
+							"EMPRESTADO": {
+								"type": "boolean"
+							}
+						}
+					}
+				}
+			},
 			"get-BibPaisData": {
 				"properties": {
 					"data": {
@@ -12744,6 +15470,23 @@
 					}
 				}
 			},
+			"post-BibPaisData-item": {
+				"properties": {
+					"LPais": {
+						"properties": {
+							"CODPAIS": {
+								"type": "integer"
+							},
+							"NOMPAIS": {
+								"type": "string"
+							},
+							"SIGLAPAIS": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibParcelaPorDataGeraMultaData": {
 				"properties": {
 					"data": {
@@ -12755,6 +15498,23 @@
 				}
 			},
 			"get-BibParcelaPorDataGeraMultaData-item": {
+				"properties": {
+					"LPARCELAPORDATA": {
+						"properties": {
+							"CODPERLET": {
+								"type": "string"
+							},
+							"DATAMULTA": {
+								"type": "string"
+							},
+							"PARCELA": {
+								"type": "integer"
+							}
+						}
+					}
+				}
+			},
+			"post-BibParcelaPorDataGeraMultaData-item": {
 				"properties": {
 					"LPARCELAPORDATA": {
 						"properties": {
@@ -12801,6 +15561,26 @@
 					}
 				}
 			},
+			"post-BibPeriodicidadeData-item": {
+				"properties": {
+					"LPeriodicidade": {
+						"properties": {
+							"CODIGO": {
+								"type": "integer"
+							},
+							"PERIODICIDADE": {
+								"type": "string"
+							},
+							"NDIAS": {
+								"type": "integer"
+							},
+							"FREQPUBLIC": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibPubAreaConData": {
 				"properties": {
 					"data": {
@@ -12812,6 +15592,35 @@
 				}
 			},
 			"get-BibPubAreaConData-item": {
+				"properties": {
+					"LPubAreaCon": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODAREA": {
+								"type": "integer"
+							},
+							"CODGRUPO": {
+								"type": "string"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"AREADESC": {
+								"type": "string"
+							},
+							"SUBAREADESC": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibPubAreaConData-item": {
 				"properties": {
 					"LPubAreaCon": {
 						"properties": {
@@ -12882,6 +15691,38 @@
 					}
 				}
 			},
+			"post-BibPubFCFOData-item": {
+				"properties": {
+					"LPubFCFO": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODCOLCFO": {
+								"type": "integer"
+							},
+							"CFDESCR": {
+								"type": "string"
+							},
+							"CFNOMEFANTASIA": {
+								"type": "string"
+							},
+							"CFNOME": {
+								"type": "string"
+							},
+							"CODCFO": {
+								"type": "string"
+							},
+							"CGCCFO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibPubfonteData": {
 				"properties": {
 					"data": {
@@ -12893,6 +15734,26 @@
 				}
 			},
 			"get-BibPubfonteData-item": {
+				"properties": {
+					"LPubfonte": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODFONTE": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"FONTEDESCR": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibPubfonteData-item": {
 				"properties": {
 					"LPubfonte": {
 						"properties": {
@@ -12970,6 +15831,54 @@
 					}
 				}
 			},
+			"post-BibPublicCopyrightData-item": {
+				"properties": {
+					"LPUBLICREGCOPYRIGHT": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"AGENCIA": {
+								"type": "string"
+							},
+							"DATA": {
+								"type": "string"
+							},
+							"INFORMACOES": {
+								"type": "string"
+							}
+						}
+					},
+					"LPUBLICNUMCOPYRIGHT": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODCOPYRIGHT": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"NUMDEPOSITO": {
+								"type": "string"
+							},
+							"NUMCANCELADO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibPublicEGradeData": {
 				"properties": {
 					"data": {
@@ -12981,6 +15890,53 @@
 				}
 			},
 			"get-BibPublicEGradeData-item": {
+				"properties": {
+					"LPublicEGrade": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODPERLET": {
+								"type": "string"
+							},
+							"CODCUR": {
+								"type": "integer"
+							},
+							"CODPER": {
+								"type": "integer"
+							},
+							"CODMAT": {
+								"type": "string"
+							},
+							"TIPOBIBLIO": {
+								"type": "string"
+							},
+							"CODCOLIGADACLASSIS": {
+								"type": "integer"
+							},
+							"DISCIPDESCR": {
+								"type": "string"
+							},
+							"CURSODESCR": {
+								"type": "string"
+							},
+							"PERLETDESCR": {
+								"type": "string"
+							},
+							"PERIODODESCR": {
+								"type": "string"
+							},
+							"NOMEFANTASIA": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibPublicEGradeData-item": {
 				"properties": {
 					"LPublicEGrade": {
 						"properties": {
@@ -13271,6 +16227,240 @@
 					}
 				}
 			},
+			"post-BibPublicExempData-item": {
+				"properties": {
+					"LExemplar": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"REGISTRO": {
+								"type": "string"
+							},
+							"DTREGISTRO": {
+								"type": "string"
+							},
+							"DTBAIXA": {
+								"type": "string"
+							},
+							"NTOMBO": {
+								"type": "string"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"LOCALIZACAO": {
+								"type": "string"
+							},
+							"TIPOAQUISICAO": {
+								"type": "string"
+							},
+							"VALORAQUISICAO": {
+								"type": "number"
+							},
+							"NEXEMPLAR": {
+								"type": "string"
+							},
+							"MOEDA": {
+								"type": "string"
+							},
+							"JUSTIFICABAIXA": {
+								"type": "string"
+							},
+							"BAIXADO": {
+								"type": "string"
+							},
+							"BLOQEMP": {
+								"type": "string"
+							},
+							"TOMO": {
+								"type": "string"
+							},
+							"CODVOL": {
+								"type": "integer"
+							},
+							"CODCFO": {
+								"type": "string"
+							},
+							"CODPERIODICO": {
+								"type": "integer"
+							},
+							"DISPONIVEL": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"IDMEMORESUMO": {
+								"type": "integer"
+							},
+							"ANO": {
+								"type": "string"
+							},
+							"NPAGINA": {
+								"type": "string"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"DTCOMPRA": {
+								"type": "string"
+							},
+							"NFISCAL": {
+								"type": "integer"
+							},
+							"OBSAQUISICAO": {
+								"type": "string"
+							},
+							"MATERIALANEXO": {
+								"type": "string"
+							},
+							"NUMEXETP": {
+								"type": "integer"
+							},
+							"NUMTOMBO": {
+								"type": "integer"
+							},
+							"NOBRA": {
+								"type": "integer"
+							},
+							"CODUSRINCL": {
+								"type": "string"
+							},
+							"DTHTINCL": {
+								"type": "string"
+							},
+							"CODUSRALT": {
+								"type": "string"
+							},
+							"DTHTALT": {
+								"type": "string"
+							},
+							"EDTCOMPL": {
+								"type": "string"
+							},
+							"DTHORAINC": {
+								"type": "string"
+							},
+							"NEXEMPPER": {
+								"type": "string"
+							},
+							"MES": {
+								"type": "string"
+							},
+							"COMPRIMENTO": {
+								"type": "number"
+							},
+							"UNCOMP": {
+								"type": "string"
+							},
+							"ALTURA": {
+								"type": "number"
+							},
+							"UNALT": {
+								"type": "string"
+							},
+							"LARGURA": {
+								"type": "number"
+							},
+							"UNLARG": {
+								"type": "string"
+							},
+							"PESO": {
+								"type": "number"
+							},
+							"UNPESO": {
+								"type": "string"
+							},
+							"CODCOLCFO": {
+								"type": "integer"
+							},
+							"CODAUXILIAR": {
+								"type": "string"
+							},
+							"CODBEM": {
+								"type": "string"
+							},
+							"ISBN": {
+								"type": "string"
+							},
+							"INVENTARIO": {
+								"type": "string"
+							},
+							"DESCVOL": {
+								"type": "string"
+							},
+							"BLOQUEADO": {
+								"type": "string"
+							},
+							"TIPOPUBLIC": {
+								"type": "integer"
+							},
+							"PATHARQUIVO": {
+								"type": "string"
+							},
+							"CODSITUACAO": {
+								"type": "integer"
+							},
+							"DATARETORNO": {
+								"type": "string"
+							},
+							"EXIBIRSITUACAODEV": {
+								"type": "string"
+							},
+							"INFOADICIONAIS": {
+								"type": "string"
+							},
+							"IDMOV": {
+								"type": "integer"
+							},
+							"RECCREATEDBY": {
+								"type": "string"
+							},
+							"RECCREATEDON": {
+								"type": "string"
+							},
+							"RECMODIFIEDBY": {
+								"type": "string"
+							},
+							"RECMODIFIEDON": {
+								"type": "string"
+							}
+						}
+					},
+					"LExemplarCompl": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"TIPOCAPA": {
+								"type": "string"
+							},
+							"FORMATOCAPA": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibPublicInfoPatDetalheData": {
 				"properties": {
 					"data": {
@@ -13304,6 +16494,29 @@
 					}
 				}
 			},
+			"post-BibPublicInfoPatDetalheData-item": {
+				"properties": {
+					"LPUBINFOPATDETALHE": {
+						"properties": {
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODINFOPAT": {
+								"type": "integer"
+							},
+							"DATA": {
+								"type": "string"
+							},
+							"STATUS": {
+								"type": "string"
+							},
+							"PARTEDOCUMENTO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibPublicSDiscGradeData": {
 				"properties": {
 					"data": {
@@ -13315,6 +16528,59 @@
 				}
 			},
 			"get-BibPublicSDiscGradeData-item": {
+				"properties": {
+					"LPublicSDiscGrade": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODCOLIGADACLASSIS": {
+								"type": "integer"
+							},
+							"CODCURSO": {
+								"type": "string"
+							},
+							"CODHABILITACAO": {
+								"type": "string"
+							},
+							"CODGRADE": {
+								"type": "string"
+							},
+							"CODPERIODO": {
+								"type": "integer"
+							},
+							"CODDISC": {
+								"type": "string"
+							},
+							"TIPOBIBLIO": {
+								"type": "string"
+							},
+							"GRADEDESCR": {
+								"type": "string"
+							},
+							"PERIODODESCR": {
+								"type": "string"
+							},
+							"DISCIPDESCR": {
+								"type": "string"
+							},
+							"HABILIDESCR": {
+								"type": "string"
+							},
+							"NOMEFANTASIA": {
+								"type": "string"
+							},
+							"CURSODESCR": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibPublicSDiscGradeData-item": {
 				"properties": {
 					"LPublicSDiscGrade": {
 						"properties": {
@@ -13406,6 +16672,35 @@
 					}
 				}
 			},
+			"post-BibPublicSDisciplinaData-item": {
+				"properties": {
+					"LPublicSDisciplina": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODCOLIGADACLASSIS": {
+								"type": "integer"
+							},
+							"CODDISC": {
+								"type": "string"
+							},
+							"TIPOBIBLIO": {
+								"type": "string"
+							},
+							"DISCIPLINADESCR": {
+								"type": "string"
+							},
+							"NOMEFANTASIA": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibPublicUGradeData": {
 				"properties": {
 					"data": {
@@ -13417,6 +16712,53 @@
 				}
 			},
 			"get-BibPublicUGradeData-item": {
+				"properties": {
+					"LPublicUGrade": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODCUR": {
+								"type": "integer"
+							},
+							"CODPER": {
+								"type": "integer"
+							},
+							"GRADE": {
+								"type": "integer"
+							},
+							"CODMAT": {
+								"type": "string"
+							},
+							"TIPOBIBLIO": {
+								"type": "string"
+							},
+							"CODCOLIGADACLASSIS": {
+								"type": "integer"
+							},
+							"CURSODESCR": {
+								"type": "string"
+							},
+							"HABILIDESCR": {
+								"type": "string"
+							},
+							"GRADEDESCR": {
+								"type": "string"
+							},
+							"NOMEFANTASIA": {
+								"type": "string"
+							},
+							"DISCIPDESCR": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibPublicUGradeData-item": {
 				"properties": {
 					"LPublicUGrade": {
 						"properties": {
@@ -13616,6 +16958,149 @@
 					}
 				}
 			},
+			"post-BibRegraEmprestimoData-item": {
+				"properties": {
+					"LRegraEmprestimo": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODTIPOUSU": {
+								"type": "integer"
+							},
+							"CODGRUPOPUBLIC": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"EMPRESTA": {
+								"type": "string"
+							},
+							"QUANTIDADE": {
+								"type": "integer"
+							},
+							"PRAZO": {
+								"type": "string"
+							},
+							"TIPOMULTA": {
+								"type": "string"
+							},
+							"VRMULTA": {
+								"type": "number"
+							},
+							"PRAZOMAXEMP": {
+								"type": "integer"
+							},
+							"VALOREMP": {
+								"type": "number"
+							},
+							"OBSERVACAO": {
+								"type": "string"
+							},
+							"RENOVAUTO": {
+								"type": "string"
+							},
+							"BLOQEMPATRA": {
+								"type": "string"
+							},
+							"QUANTMAXREN": {
+								"type": "integer"
+							},
+							"NDIASLIBRES": {
+								"type": "integer"
+							},
+							"PERMRESEMP": {
+								"type": "string"
+							},
+							"PERMMULTEMP": {
+								"type": "string"
+							},
+							"RESMESMAPUBEMP": {
+								"type": "string"
+							},
+							"TIPOCONTABPRAZOMAXEMP": {
+								"type": "string"
+							},
+							"TIPOCONTABPRAZOMAXEMPBLOQ": {
+								"type": "string"
+							},
+							"PRAZOMAXEMPBLOQ": {
+								"type": "integer"
+							},
+							"RESERVA": {
+								"type": "string"
+							},
+							"LIBEMPDISCIPLINAS": {
+								"type": "string"
+							},
+							"TIPOUSUARIO": {
+								"type": "string"
+							},
+							"GRUPOPUBLIC": {
+								"type": "string"
+							},
+							"PRAZOINTERNO": {
+								"type": "integer"
+							},
+							"TIPOMULTAINTERNO": {
+								"type": "string"
+							},
+							"VRMULTAINTERNO": {
+								"type": "number"
+							},
+							"VRMULTACOMRESERVA": {
+								"type": "number"
+							},
+							"VERIFICAFAIXAETARIA": {
+								"type": "string"
+							},
+							"IDADEMINIMA": {
+								"type": "integer"
+							},
+							"TIPOMULTARES": {
+								"type": "string"
+							},
+							"TIPOMULTAINTERNORES": {
+								"type": "string"
+							},
+							"VRMULTAINTERNORES": {
+								"type": "number"
+							},
+							"PRAZOCOMRESINTERNO": {
+								"type": "integer"
+							},
+							"PRAZOCOMRES": {
+								"type": "integer"
+							},
+							"TIPOCONTABPRAZOMAXEMPEXT": {
+								"type": "string"
+							},
+							"PRAZOMAXEMPEXT": {
+								"type": "integer"
+							},
+							"VRMULTAEXTERNO": {
+								"type": "number"
+							},
+							"PRAZOEXTERNO": {
+								"type": "integer"
+							},
+							"TIPOMULTAEXTERNO": {
+								"type": "string"
+							},
+							"PRAZOCOMRESEXTERNO": {
+								"type": "integer"
+							},
+							"VRMULTAEXTERNORES": {
+								"type": "number"
+							},
+							"TIPOMULTAEXTERNORES": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibRemisAssData": {
 				"properties": {
 					"data": {
@@ -13627,6 +17112,23 @@
 				}
 			},
 			"get-BibRemisAssData-item": {
+				"properties": {
+					"LRemisAss": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibRemisAssData-item": {
 				"properties": {
 					"LRemisAss": {
 						"properties": {
@@ -13670,6 +17172,23 @@
 					}
 				}
 			},
+			"post-BibRemisAutorData-item": {
+				"properties": {
+					"LRemisAutor": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibRemisEdtData": {
 				"properties": {
 					"data": {
@@ -13694,6 +17213,20 @@
 					}
 				}
 			},
+			"post-BibRemisEdtData-item": {
+				"properties": {
+					"LRemisEdt": {
+						"properties": {
+							"CODIGO": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibReservaData": {
 				"properties": {
 					"data": {
@@ -13705,6 +17238,147 @@
 				}
 			},
 			"get-BibReservaData-item": {
+				"properties": {
+					"LReserva": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"STATUSRES": {
+								"type": "string"
+							},
+							"DTHRRESERVAFEITA": {
+								"type": "string"
+							},
+							"DTHRREQUERRESERVA": {
+								"type": "string"
+							},
+							"DTHLIBERACAO": {
+								"type": "string"
+							},
+							"ORDEMRES": {
+								"type": "integer"
+							},
+							"ORIGEMRES": {
+								"type": "string"
+							},
+							"CODFI": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODVOLUME": {
+								"type": "integer"
+							},
+							"ANO": {
+								"type": "string"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"CODEXEMPLAR": {
+								"type": "integer"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"NOMEFANTASIA": {
+								"type": "string"
+							},
+							"UNIDADE": {
+								"type": "string"
+							},
+							"DESCVOL": {
+								"type": "string"
+							},
+							"EDITOR": {
+								"type": "string"
+							},
+							"STATUSAUX": {
+								"type": "string"
+							},
+							"AUTORES": {
+								"type": "string"
+							},
+							"FILIAL": {
+								"type": "string"
+							},
+							"SUBTITULO": {
+								"type": "string"
+							},
+							"NOME": {
+								"type": "string"
+							},
+							"PUBLICCOLIGADA": {
+								"type": "integer"
+							},
+							"DESCANO": {
+								"type": "string"
+							},
+							"DESCEDICAO": {
+								"type": "string"
+							},
+							"CODCOLIGADAFILIAL": {
+								"type": "integer"
+							},
+							"TIPOPUBLICACAO": {
+								"type": "string"
+							},
+							"RESPONSAVELRES": {
+								"type": "string"
+							},
+							"RESPONSAVELCANCELRES": {
+								"type": "string"
+							}
+						}
+					},
+					"LRESERVAWIN": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"STATUSRES": {
+								"type": "string"
+							},
+							"DTHRRESERVAFEITA": {
+								"type": "string"
+							},
+							"DTHRREQUERRESERVA": {
+								"type": "string"
+							},
+							"DTHLIBERACAO": {
+								"type": "string"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"NOME": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibReservaData-item": {
 				"properties": {
 					"LReserva": {
 						"properties": {
@@ -13890,6 +17564,41 @@
 					}
 				}
 			},
+			"post-BibServicoData-item": {
+				"properties": {
+					"LSERVICO": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODSERVICO": {
+								"type": "string"
+							},
+							"TIPOTAXA": {
+								"type": "integer"
+							},
+							"CODTIPOCURSO": {
+								"type": "integer"
+							},
+							"NOMESERVICO": {
+								"type": "string"
+							},
+							"NOMETIPOCURSO": {
+								"type": "string"
+							},
+							"PREENCHEDATACOMPETENCIA": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibSituacaoDoExemplarData": {
 				"properties": {
 					"data": {
@@ -13901,6 +17610,23 @@
 				}
 			},
 			"get-BibSituacaoDoExemplarData-item": {
+				"properties": {
+					"LSITUACAOEXEMPLAR": {
+						"properties": {
+							"CODSITUACAO": {
+								"type": "integer"
+							},
+							"NOME": {
+								"type": "string"
+							},
+							"PERMITEEMP": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibSituacaoDoExemplarData-item": {
 				"properties": {
 					"LSITUACAOEXEMPLAR": {
 						"properties": {
@@ -13944,6 +17670,23 @@
 					}
 				}
 			},
+			"post-BibSubAreaConData-item": {
+				"properties": {
+					"LSubAreaCon": {
+						"properties": {
+							"CODAREA": {
+								"type": "integer"
+							},
+							"CODGRUPO": {
+								"type": "string"
+							},
+							"DESCGRUPO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibSugestaoCompraData": {
 				"properties": {
 					"data": {
@@ -13955,6 +17698,77 @@
 				}
 			},
 			"get-BibSugestaoCompraData-item": {
+				"properties": {
+					"LSugestao": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODUSU": {
+								"type": "integer"
+							},
+							"DTPEDIDO": {
+								"type": "string"
+							},
+							"TITULO": {
+								"type": "string"
+							},
+							"EDITORA": {
+								"type": "string"
+							},
+							"MOTIVO": {
+								"type": "string"
+							},
+							"COMPRA": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"AUTORES": {
+								"type": "string"
+							},
+							"TITULOORIGINAL": {
+								"type": "string"
+							},
+							"DTAQUISICAO": {
+								"type": "string"
+							},
+							"TIPOPUBLIC": {
+								"type": "integer"
+							},
+							"VOLUME": {
+								"type": "integer"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"ANO": {
+								"type": "string"
+							},
+							"QUANTIDADE": {
+								"type": "integer"
+							},
+							"IDMOV": {
+								"type": "integer"
+							},
+							"SITUACAOSUGESTAO": {
+								"type": "string"
+							},
+							"EMAILENVIADO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibSugestaoCompraData-item": {
 				"properties": {
 					"LSugestao": {
 						"properties": {
@@ -14067,6 +17881,38 @@
 					}
 				}
 			},
+			"post-BibSumarioData-item": {
+				"properties": {
+					"LSumario": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"PARTE": {
+								"type": "string"
+							},
+							"DESCPARTE": {
+								"type": "string"
+							},
+							"CAPITULO": {
+								"type": "string"
+							},
+							"DESCCAPITULO": {
+								"type": "string"
+							},
+							"PAGINA": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							}
+						}
+					}
+				}
+			},
 			"get-BibTipoPublicData": {
 				"properties": {
 					"data": {
@@ -14078,6 +17924,20 @@
 				}
 			},
 			"get-BibTipoPublicData-item": {
+				"properties": {
+					"LTipoPublic": {
+						"properties": {
+							"CODIGO": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibTipoPublicData-item": {
 				"properties": {
 					"LTipoPublic": {
 						"properties": {
@@ -14121,6 +17981,26 @@
 					}
 				}
 			},
+			"post-BibTipoRefData-item": {
+				"properties": {
+					"LTipoRef": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							},
+							"SIMBOLO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibTipoUsuarioData": {
 				"properties": {
 					"data": {
@@ -14132,6 +18012,63 @@
 				}
 			},
 			"get-BibTipoUsuarioData-item": {
+				"properties": {
+					"LTipoUsuario": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							},
+							"NMAXEMP": {
+								"type": "integer"
+							},
+							"NUMMAXEMPINT": {
+								"type": "integer"
+							},
+							"CHKVALUSR": {
+								"type": "string"
+							},
+							"TIPONMAXEMP": {
+								"type": "string"
+							},
+							"NMAXRES": {
+								"type": "integer"
+							},
+							"CONSISTEPUBGRADEUSU": {
+								"type": "string"
+							},
+							"NUMMAXEMPEXT": {
+								"type": "integer"
+							}
+						}
+					},
+					"LUsuMaxEmp": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGOTPUSUARIO": {
+								"type": "integer"
+							},
+							"CODIGOTPPUBLIC": {
+								"type": "integer"
+							},
+							"MAXEMP": {
+								"type": "integer"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibTipoUsuarioData-item": {
 				"properties": {
 					"LTipoUsuario": {
 						"properties": {
@@ -14248,6 +18185,56 @@
 					}
 				}
 			},
+			"post-BibUnidadeData-item": {
+				"properties": {
+					"LUnidade": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"UNIDADE": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"NOMEFANTASIA": {
+								"type": "string"
+							},
+							"CODCCUSTO": {
+								"type": "string"
+							},
+							"CODDEPARTAMENTO": {
+								"type": "string"
+							},
+							"HORAABERTURA": {
+								"type": "string"
+							},
+							"HORAFECHAMENTO": {
+								"type": "string"
+							},
+							"CODLOC": {
+								"type": "string"
+							},
+							"CODIBICT": {
+								"type": "string"
+							},
+							"CAPACIDADE": {
+								"type": "integer"
+							},
+							"AREAPARAUSUARIO": {
+								"type": "number"
+							},
+							"AREATOTAL": {
+								"type": "number"
+							}
+						}
+					}
+				}
+			},
 			"get-BibUnidadeParamsProtheusData": {
 				"properties": {
 					"data": {
@@ -14259,6 +18246,44 @@
 				}
 			},
 			"get-BibUnidadeParamsProtheusData-item": {
+				"properties": {
+					"LUNIDADEPARAMPROTHEUS": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"IDNATUREZA": {
+								"type": "string"
+							},
+							"IDPREFIXO": {
+								"type": "string"
+							},
+							"IDITEMCONTABIL": {
+								"type": "string"
+							},
+							"IDCLASSEVALOR": {
+								"type": "string"
+							},
+							"FILIAL": {
+								"type": "string"
+							},
+							"IDITEMCONTABILPROTHEUS": {
+								"type": "string"
+							},
+							"IDCLASSEVALORPROTHEUS": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibUnidadeParamsProtheusData-item": {
 				"properties": {
 					"LUNIDADEPARAMPROTHEUS": {
 						"properties": {
@@ -14332,6 +18357,32 @@
 					}
 				}
 			},
+			"post-BibUnidadesUsuarioCorpData-item": {
+				"properties": {
+					"LRESPONSUNIDADE": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODUSUARIO": {
+								"type": "string"
+							},
+							"FILUNIDEF": {
+								"type": "string"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibUsuarioAreaInteresseData": {
 				"properties": {
 					"data": {
@@ -14343,6 +18394,35 @@
 				}
 			},
 			"get-BibUsuarioAreaInteresseData-item": {
+				"properties": {
+					"LUSUAREAINTERESSE": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"CODAREA": {
+								"type": "integer"
+							},
+							"CODGRUPO": {
+								"type": "string"
+							},
+							"AREADESC": {
+								"type": "string"
+							},
+							"SUBAREADESC": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibUsuarioAreaInteresseData-item": {
 				"properties": {
 					"LUSUAREAINTERESSE": {
 						"properties": {
@@ -14560,6 +18640,185 @@
 					}
 				}
 			},
+			"post-BibUsuarioData-item": {
+				"properties": {
+					"LUSUARIO": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							},
+							"DATACADASTRAMENTO": {
+								"type": "string"
+							},
+							"TIPOUSUARIO": {
+								"type": "integer"
+							},
+							"DTHATRASADO": {
+								"type": "string"
+							},
+							"DIASSUSPENSO": {
+								"type": "integer"
+							},
+							"SITUSUARIO": {
+								"type": "string"
+							},
+							"MATCOD": {
+								"type": "string"
+							},
+							"CODCFO": {
+								"type": "string"
+							},
+							"CODPESSOA": {
+								"type": "integer"
+							},
+							"CODCOLCFO": {
+								"type": "integer"
+							},
+							"FUNCCHAPA": {
+								"type": "integer"
+							},
+							"SENHAUSR": {
+								"type": "string"
+							},
+							"DTVALUSR": {
+								"type": "string"
+							},
+							"CODCOLRA": {
+								"type": "integer"
+							},
+							"RACLASSISNET": {
+								"type": "string"
+							},
+							"DESCRICAO": {
+								"type": "string"
+							},
+							"NOME": {
+								"type": "string"
+							},
+							"APELIDO": {
+								"type": "string"
+							},
+							"RASALUNO": {
+								"type": "string"
+							},
+							"CHAPAS": {
+								"type": "string"
+							},
+							"EMAIL": {
+								"type": "string"
+							},
+							"NOMERESPONS": {
+								"type": "string"
+							},
+							"NOMESOCIAL": {
+								"type": "string"
+							}
+						}
+					},
+					"LUSUARIOCOMPL": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"NUMFILHOS": {
+								"type": "integer"
+							},
+							"RECCREATEDBY": {
+								"type": "string"
+							},
+							"RECCREATEDON": {
+								"type": "string"
+							},
+							"RECMODIFIEDBY": {
+								"type": "string"
+							},
+							"RECMODIFIEDON": {
+								"type": "string"
+							}
+						}
+					},
+					"LUSUUNI": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODCLIENTE": {
+								"type": "integer"
+							}
+						}
+					},
+					"CHAPAS": {
+						"properties": {
+							"CHAPA": {
+								"type": "string"
+							}
+						}
+					},
+					"RA": {
+						"properties": {
+							"RA": {
+								"type": "string"
+							},
+							"CODCOLIGADA": {
+								"type": "string"
+							}
+						}
+					},
+					"LUNIDADE": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"UNIDADE": {
+								"type": "string"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"CODCCUSTO": {
+								"type": "string"
+							},
+							"CODDEPARTAMENTO": {
+								"type": "string"
+							}
+						}
+					},
+					"LRESPONSUNIDADE": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODUSUARIO": {
+								"type": "string"
+							},
+							"CODUNIDADE": {
+								"type": "integer"
+							},
+							"CODFILIAL": {
+								"type": "integer"
+							},
+							"FILUNIDEF": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
 			"get-BibVolumeData": {
 				"properties": {
 					"data": {
@@ -14571,6 +18830,44 @@
 				}
 			},
 			"get-BibVolumeData-item": {
+				"properties": {
+					"LVolume": {
+						"properties": {
+							"CODCOLIGADA": {
+								"type": "integer"
+							},
+							"CODIGO": {
+								"type": "integer"
+							},
+							"CODPUBLIC": {
+								"type": "integer"
+							},
+							"DESCVOL": {
+								"type": "string"
+							},
+							"NPAG": {
+								"type": "string"
+							},
+							"EDICAO": {
+								"type": "string"
+							},
+							"ANOPUBLIC": {
+								"type": "integer"
+							},
+							"ISBN": {
+								"type": "string"
+							},
+							"ISSN": {
+								"type": "string"
+							},
+							"CONTEUDO": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			},
+			"post-BibVolumeData-item": {
 				"properties": {
 					"LVolume": {
 						"properties": {
