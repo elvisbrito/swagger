@@ -11782,7 +11782,7 @@
 						"type": "integer"
 					},
 					"ROWVALIDA": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"ALUNO": {
 						"type": "integer"
@@ -12607,7 +12607,7 @@
 						"type": "integer"
 					},
 					"ROWVALIDA": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"ALUNO": {
 						"type": "integer"
@@ -13454,7 +13454,7 @@
 						"type": "integer"
 					},
 					"ROWVALIDA": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"ALUNO": {
 						"type": "integer"
@@ -14472,7 +14472,7 @@
 						"type": "integer"
 					},
 					"ROWVALIDA": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"ALUNO": {
 						"type": "integer"
@@ -16034,7 +16034,7 @@
 						"type": "string"
 					},
 					"QTDEALUNOSATIVOS": {
-						"type": "System.UInt32"
+						"type": "integer"
 					}
 				}
 			},
@@ -16083,7 +16083,7 @@
 						"type": "string"
 					},
 					"QTDEALUNOSATIVOS": {
-						"type": "System.UInt32"
+						"type": "integer"
 					}
 				}
 			},
@@ -18150,7 +18150,7 @@
 						"type": "string"
 					},
 					"STATUS": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"NOME": {
 						"type": "string"
@@ -18315,7 +18315,7 @@
 						"type": "string"
 					},
 					"STATUS": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"NOME": {
 						"type": "string"
@@ -25232,7 +25232,7 @@
 						"type": "string"
 					},
 					"TAMANHOARQUIVO": {
-						"type": "System.Single"
+						"type": "string"
 					},
 					"ARQUIVO": {
 						"type": "string"
@@ -25287,7 +25287,7 @@
 						"type": "string"
 					},
 					"TAMANHOARQUIVO": {
-						"type": "System.Single"
+						"type": "string"
 					},
 					"ARQUIVO": {
 						"type": "string"
@@ -65500,7 +65500,7 @@
 								"type": "string"
 							},
 							"TAMANHOARQUIVO": {
-								"type": "System.Single"
+								"type": "string"
 							}
 						}
 					},
@@ -65617,7 +65617,7 @@
 								"type": "string"
 							},
 							"TAMANHOARQUIVO": {
-								"type": "System.Single"
+								"type": "string"
 							}
 						}
 					},
@@ -66942,7 +66942,7 @@
 						"type": "integer"
 					},
 					"IDINSTITUICAOMEC": {
-						"type": "System.UInt32"
+						"type": "integer"
 					},
 					"CODPESSOA": {
 						"type": "integer"
@@ -66973,7 +66973,7 @@
 						"type": "integer"
 					},
 					"IDINSTITUICAOMEC": {
-						"type": "System.UInt32"
+						"type": "integer"
 					},
 					"CODPESSOA": {
 						"type": "integer"
@@ -69061,7 +69061,7 @@
 						"type": "integer"
 					},
 					"ROWVALIDA": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"ALUNO": {
 						"type": "integer"
@@ -69594,7 +69594,7 @@
 						"type": "integer"
 					},
 					"ROWVALIDA": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"ALUNO": {
 						"type": "integer"
@@ -78835,7 +78835,7 @@
 								"type": "string"
 							},
 							"ARQUIVO": {
-								"type": "System.Object"
+								"type": "string"
 							},
 							"DETALHE": {
 								"type": "string"
@@ -79915,7 +79915,7 @@
 								"type": "string"
 							},
 							"ARQUIVO": {
-								"type": "System.Object"
+								"type": "string"
 							},
 							"DETALHE": {
 								"type": "string"
@@ -81529,7 +81529,7 @@
 						"type": "integer"
 					},
 					"ROWVALIDA": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"ALUNO": {
 						"type": "integer"
@@ -82054,7 +82054,7 @@
 						"type": "integer"
 					},
 					"ROWVALIDA": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"ALUNO": {
 						"type": "integer"
@@ -84728,7 +84728,7 @@
 						"type": "integer"
 					},
 					"ROWVALIDA": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"ALUNO": {
 						"type": "integer"
@@ -85224,7 +85224,7 @@
 						"type": "integer"
 					},
 					"ROWVALIDA": {
-						"type": "System.UInt16"
+						"type": "integer"
 					},
 					"ALUNO": {
 						"type": "integer"
