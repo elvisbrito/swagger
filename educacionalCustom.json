@@ -8518,7 +8518,7 @@
 					}
 				}
 			}
-		},
+		}
 		
 	},
 	"components": {
@@ -16034,7 +16034,7 @@
 						"type": "string"
 					},
 					"QTDEALUNOSATIVOS": {
-						"type": "integer"
+						"type": "System.UInt32"
 					}
 				}
 			},
@@ -16083,7 +16083,7 @@
 						"type": "string"
 					},
 					"QTDEALUNOSATIVOS": {
-						"type": "integer"
+						"type": "System.UInt32"
 					}
 				}
 			},
@@ -25232,7 +25232,7 @@
 						"type": "string"
 					},
 					"TAMANHOARQUIVO": {
-						"type": "string"
+						"type": "System.Single"
 					},
 					"ARQUIVO": {
 						"type": "string"
@@ -25287,7 +25287,7 @@
 						"type": "string"
 					},
 					"TAMANHOARQUIVO": {
-						"type": "string"
+						"type": "System.Single"
 					},
 					"ARQUIVO": {
 						"type": "string"
@@ -65500,7 +65500,7 @@
 								"type": "string"
 							},
 							"TAMANHOARQUIVO": {
-								"type": "string"
+								"type": "System.Single"
 							}
 						}
 					},
@@ -65617,7 +65617,7 @@
 								"type": "string"
 							},
 							"TAMANHOARQUIVO": {
-								"type": "string"
+								"type": "System.Single"
 							}
 						}
 					},
@@ -66942,7 +66942,7 @@
 						"type": "integer"
 					},
 					"IDINSTITUICAOMEC": {
-						"type": "integer"
+						"type": "System.UInt32"
 					},
 					"CODPESSOA": {
 						"type": "integer"
@@ -66973,7 +66973,7 @@
 						"type": "integer"
 					},
 					"IDINSTITUICAOMEC": {
-						"type": "integer"
+						"type": "System.UInt32"
 					},
 					"CODPESSOA": {
 						"type": "integer"
@@ -78835,7 +78835,7 @@
 								"type": "string"
 							},
 							"ARQUIVO": {
-								"type": "string"
+								"type": "System.Object"
 							},
 							"DETALHE": {
 								"type": "string"
@@ -79915,7 +79915,7 @@
 								"type": "string"
 							},
 							"ARQUIVO": {
-								"type": "string"
+								"type": "System.Object"
 							},
 							"DETALHE": {
 								"type": "string"
