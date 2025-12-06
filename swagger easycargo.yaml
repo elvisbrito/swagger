@@ -1,0 +1,325 @@
+openapi: 3.0.0
+info:
+  title: EasyCargo3D API v1 - Shipment (Reconstrução Parcial)
+  description: |
+    Esta é uma especificação **parcial** e **reconstruída** da API EasyCargo3D v1, focando no recurso Shipment. 
+    Foi gerada com base em informações extraídas de artigos de suporte e notas de release, 
+    uma vez que não foi possível acessar diretamente o conteúdo da documentação no URL fornecido.
+  version: v1
+
+servers:
+  - url: https://go.easycargo3d.com/api/v1
+    description: EasyCargo3D API v1 Base URL
+
+security:
+  - bearerAuth: [] # Aplica o esquema de segurança definido abaixo para todos os endpoints, exceto /authentication
+
+paths:
+  # 1. Autenticação (Obter Token)
+  /authentication:
+    post:
+      tags:
+        - Autenticação
+      summary: Obtém o token de autenticação
+      description: Requer o nome de usuário e a chave de API para receber um token de autenticação, que deve ser usado no cabeçalho (Header) das requisições subsequentes como um Bearer Token.
+      security: [] # Este endpoint não requer autenticação prévia
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthRequest'
+      responses:
+        '200':
+          description: Token de autenticação recebido com sucesso.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '401':
+          description: Credenciais inválidas.
+  
+  # 2. Listar Remessas
+  /shipments:
+    get:
+      tags:
+        - Remessas
+      summary: Lista todas as remessas
+      description: Retorna uma lista paginada e filtrável de remessas.
+      parameters:
+        - name: from
+          in: query
+          description: Filtra remessas criadas a partir desta data (e.g., 2020-01-02).
+          required: false
+          schema:
+            type: string
+            format: date
+        - name: offset
+          in: query
+          description: Para paginação - índice de início.
+          required: false
+          schema:
+            type: integer
+            default: 0
+        - name: limit
+          in: query
+          description: Para paginação - número máximo de itens a retornar (máx. 100).
+          required: false
+          schema:
+            type: integer
+            default: 100
+      responses:
+        '200':
+          description: Lista de remessas retornada com sucesso.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ShipmentSummary'
+  
+  # 3. Criar/Inserir Dados de Remessa
+  /shipment-inputs:
+    post:
+      tags:
+        - Remessas
+      summary: Cria um novo input de remessa
+      description: Envia detalhes sobre a carga (itens, restrições) e o espaço de carga (container) para iniciar um novo plano de carga.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ShipmentInputRequest'
+      responses:
+        '201':
+          description: Input de remessa criado com sucesso. Retorna o ID do input.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  shipmentInputId:
+                    type: string
+                    description: O ID do input de remessa recém-criado.
+        '400':
+          description: Dados de entrada inválidos.
+
+  # 4. Obter/Deletar Remessa Específica
+  /shipments/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        description: O ID da remessa.
+        schema:
+          type: string
+    get:
+      tags:
+        - Remessas
+      summary: Obtém detalhes de uma remessa específica
+      description: Retorna dados abrangentes de uma remessa, incluindo link público e link para o relatório.
+      responses:
+        '200':
+          description: Detalhes da remessa retornados com sucesso.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ShipmentDetails'
+        '404':
+          description: Remessa não encontrada.
+    delete:
+      tags:
+        - Remessas
+      summary: Deleta uma remessa específica
+      description: Remove a remessa da sua conta EasyCargo.
+      responses:
+        '204':
+          description: Remessa deletada com sucesso.
+        '404':
+          description: Remessa não encontrada.
+
+  # 5. Obter Relatório de Remessa
+  /shipment-reports/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        description: O ID do relatório da remessa.
+        schema:
+          type: string
+    get:
+      tags:
+        - Relatórios
+      summary: Obtém detalhes de um relatório de remessa
+      description: Retorna documentação detalhada do plano de carga, incluindo visualizações 3D e instruções de carregamento.
+      responses:
+        '200':
+          description: Relatório de remessa retornado com sucesso (formato provável JSON ou link para o documento).
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ShipmentReportDetails'
+        '404':
+          description: Relatório de remessa não encontrado.
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: O token de autenticação recebido do endpoint /authentication deve ser enviado no cabeçalho Authorization como `Bearer <TOKEN>`.
+
+  schemas:
+    AuthRequest:
+      type: object
+      description: Corpo da requisição para autenticação.
+      properties:
+        username:
+          type: string
+          description: Nome de usuário da conta EasyCargo.
+          example: seu_usuario
+        apiKey:
+          type: string
+          description: Chave de API da conta EasyCargo.
+          example: 12345678-abcd-1234-abcd-1234567890ab
+      required:
+        - username
+        - apiKey
+
+    AuthResponse:
+      type: object
+      description: Corpo da resposta de autenticação.
+      properties:
+        token:
+          type: string
+          description: O token de autenticação JWT a ser usado nos headers (expira após um período).
+          example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMjMiLCJpYXQiOjE1MTYyMzkwMjJ9.P8QYfT4G0vLzF_sF_yU7I5QY1Gq9B0W6A7R2t9W0
+    
+    ShipmentInputRequest:
+      type: object
+      description: Schema para a criação/inserção de dados de uma nova remessa.
+      properties:
+        shipmentName:
+          type: string
+          description: Nome da remessa.
+          example: Remessa-ABC-2025
+        measurementSystem:
+          type: string
+          enum: [metric, imperial]
+          description: Sistema de medição a ser usado (metric ou imperial).
+          example: metric
+        storedItems:
+          type: array
+          description: Lista dos itens e suas especificações (medidas, restrições) a serem carregados.
+          items:
+            $ref: '#/components/schemas/CargoItem'
+        cargoSpaces:
+          type: array
+          description: Lista de espaços de carga (containers, caminhões) a serem usados.
+          items:
+            $ref: '#/components/schemas/CargoSpace'
+
+    CargoItem:
+      type: object
+      description: Representa um item na remessa com suas dimensões.
+      properties:
+        name:
+          type: string
+          example: Caixa Média
+        width:
+          type: number
+          format: float
+          description: Largura do item (em unidades do measurementSystem).
+          example: 0.5
+        height:
+          type: number
+          format: float
+          description: Altura do item.
+          example: 0.3
+        length:
+          type: number
+          format: float
+          description: Comprimento do item.
+          example: 0.4
+        pieces:
+          type: integer
+          description: Quantidade de peças deste item.
+          example: 82
+        weightPerItem:
+          type: number
+          format: float
+          description: Peso de cada item.
+          example: 5.0
+        # ... Outros campos (e.g., stacking restrictions)
+
+    CargoSpace:
+      type: object
+      description: Representa um container ou espaço de carga.
+      properties:
+        name:
+          type: string
+          example: Container 40ft
+        width:
+          type: number
+          format: float
+          description: Largura interna do espaço de carga.
+        height:
+          type: number
+          format: float
+          description: Altura interna do espaço de carga.
+        length:
+          type: number
+          format: float
+          description: Comprimento interno do espaço de carga.
+        maxLoadingWeight:
+          type: number
+          format: float
+          description: Peso máximo que o espaço pode suportar.
+        # ... Outros campos (e.g., type)
+
+    ShipmentSummary:
+      type: object
+      description: Um resumo dos dados de uma remessa (usado na listagem).
+      properties:
+        id:
+          type: string
+          example: SHIP-0001
+        name:
+          type: string
+        createdDate:
+          type: string
+          format: date-time
+        # ... Outros campos importantes para um resumo
+
+    ShipmentDetails:
+      type: object
+      description: Detalhes completos de uma remessa específica.
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        publicLink:
+          type: string
+          format: url
+          description: Link público para visualização 3D da remessa.
+        reportLink:
+          type: string
+          format: url
+          description: Link para o relatório em PDF.
+        # ... todos os detalhes do plano de carga
+    
+    ShipmentReportDetails:
+      type: object
+      description: Estrutura dos dados do relatório do plano de carga (podendo incluir posições dos itens).
+      properties:
+        reportData:
+          type: object
+          description: Dados estruturados do relatório.
+        pdfLink:
+          type: string
+          format: url
+          description: Link direto para o arquivo PDF do relatório.
+        # ... Outros detalhes do relatório
