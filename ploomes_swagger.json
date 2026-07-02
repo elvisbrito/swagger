@@ -1,0 +1,665 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Ploomes API",
+    "description": "Documentação Swagger (OpenAPI 3.0) para a API do CRM Ploomes. A API é baseada no protocolo OData v4 para consulta e manipulação de dados via HTTP. Recomenda-se o uso dos parâmetros `$top`, `$skip`, `$filter` e `$expand` para otimização.",
+    "version": "1.0.0",
+    "contact": {
+      "name": "Suporte Ploomes",
+      "url": "https://developers.ploomes.com/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://public-api2.ploomes.com",
+      "description": "Servidor Principal da API Pública do Ploomes"
+    }
+  ],
+  "security": [
+    {
+      "UserKeyAuth": []
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "UserKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "User-Key",
+        "description": "Chave de integração gerada na criação do usuário de integração no painel administrativo do Ploomes."
+      }
+    },
+    "parameters": {
+      "ODataTop": {
+        "name": "$top",
+        "in": "query",
+        "description": "Número de registros a retornar (Limite máximo de 300 para Contatos, Negócios, Cidades, Tarefas, Pedidos e Propostas).",
+        "required": false,
+        "schema": {
+          "type": "integer",
+          "default": 100
+        }
+      },
+      "ODataSkip": {
+        "name": "$skip",
+        "in": "query",
+        "description": "Número de registros a ignorar (usado para paginação).",
+        "required": false,
+        "schema": {
+          "type": "integer",
+          "default": 0
+        }
+      },
+      "ODataSelect": {
+        "name": "$select",
+        "in": "query",
+        "description": "Campos específicos a serem retornados na resposta.",
+        "required": false,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "ODataExpand": {
+        "name": "$expand",
+        "in": "query",
+        "description": "Entidades ou propriedades relacionadas a expandir (ex: `OtherProperties`, `Attachment`).",
+        "required": false,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "ODataFilter": {
+        "name": "$filter",
+        "in": "query",
+        "description": "Expressão de filtro OData v4 para busca avançada.",
+        "required": false,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "EntityId": {
+        "name": "Id",
+        "in": "path",
+        "description": "ID exclusivo da entidade no Ploomes.",
+        "required": true,
+        "schema": {
+          "type": "integer"
+        }
+      }
+    },
+    "schemas": {
+      "Contact": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "Name": {
+            "type": "string"
+          },
+          "Email": {
+            "type": "string",
+            "format": "email"
+          },
+          "Phones": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "PhoneNumber": {
+                  "type": "string"
+                },
+                "TypeId": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "TypeId": {
+            "type": "integer",
+            "description": "1 para Empresa, 2 para Pessoa"
+          },
+          "OtherProperties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomField"
+            }
+          }
+        }
+      },
+      "Deal": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "Title": {
+            "type": "string"
+          },
+          "ContactId": {
+            "type": "integer"
+          },
+          "StageId": {
+            "type": "integer"
+          },
+          "PipelineId": {
+            "type": "integer"
+          },
+          "Amount": {
+            "type": "number",
+            "format": "float"
+          },
+          "StatusId": {
+            "type": "integer",
+            "description": "Status do negócio"
+          },
+          "OtherProperties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomField"
+            }
+          }
+        }
+      },
+      "Task": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "Title": {
+            "type": "string"
+          },
+          "Description": {
+            "type": "string"
+          },
+          "ContactId": {
+            "type": "integer"
+          },
+          "DealId": {
+            "type": "integer"
+          },
+          "FinishDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "TypeId": {
+            "type": "integer"
+          }
+        }
+      },
+      "CustomField": {
+        "type": "object",
+        "properties": {
+          "FieldKey": {
+            "type": "string",
+            "description": "Chave gerada ao criar o campo customizado"
+          },
+          "StringValue": {
+            "type": "string"
+          },
+          "IntegerValue": {
+            "type": "integer"
+          },
+          "DecimalValue": {
+            "type": "number",
+            "format": "float"
+          }
+        }
+      },
+      "Webhook": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "Url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "ActionId": {
+            "type": "integer",
+            "description": "Ação gatilho do webhook"
+          },
+          "Secret": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "paths": {
+    "/Account": {
+      "get": {
+        "summary": "Obter dados da Conta",
+        "description": "Retorna as informações gerais sobre a conta ativa do Ploomes.",
+        "tags": [
+          "Account"
+        ],
+        "responses": {
+          "200": {
+            "description": "Sucesso",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      },
+      "patch": {
+        "summary": "Atualizar dados da Conta",
+        "description": "Permite atualizar as configurações e propriedades da conta.",
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Atualizado com sucesso"
+          }
+        }
+      }
+    },
+    "/Contacts": {
+      "get": {
+        "summary": "Listar Contatos",
+        "description": "Retorna uma lista de contatos (Pessoas e Empresas) cadastrados no Ploomes.",
+        "tags": [
+          "Contacts"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ODataTop"
+          },
+          {
+            "$ref": "#/components/parameters/ODataSkip"
+          },
+          {
+            "$ref": "#/components/parameters/ODataSelect"
+          },
+          {
+            "$ref": "#/components/parameters/ODataExpand"
+          },
+          {
+            "$ref": "#/components/parameters/ODataFilter"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Lista de contatos retornada com sucesso.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "value": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Contact"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar Contato",
+        "description": "Cria um novo contato no Ploomes.",
+        "tags": [
+          "Contacts"
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Contact"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Contato criado com sucesso.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Contact"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Contacts({Id})": {
+      "patch": {
+        "summary": "Atualizar Contato",
+        "description": "Atualiza parcialmente os dados de um contato existente através de seu ID.",
+        "tags": [
+          "Contacts"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/EntityId"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Contact"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Contato atualizado com sucesso."
+          }
+        }
+      },
+      "delete": {
+        "summary": "Excluir Contato",
+        "description": "Remove definitivamente um contato através de seu ID.",
+        "tags": [
+          "Contacts"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/EntityId"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Contato excluído com sucesso."
+          }
+        }
+      }
+    },
+    "/Deals": {
+      "get": {
+        "summary": "Listar Negócios (Oportunidades)",
+        "description": "Retorna uma lista de negócios cadastrados na conta.",
+        "tags": [
+          "Deals"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ODataTop"
+          },
+          {
+            "$ref": "#/components/parameters/ODataSkip"
+          },
+          {
+            "$ref": "#/components/parameters/ODataSelect"
+          },
+          {
+            "$ref": "#/components/parameters/ODataExpand"
+          },
+          {
+            "$ref": "#/components/parameters/ODataFilter"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Sucesso",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "value": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Deal"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar Negócio",
+        "tags": [
+          "Deals"
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Deal"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Criado com sucesso"
+          }
+        }
+      }
+    },
+    "/Deals({Id})": {
+      "patch": {
+        "summary": "Atualizar Negócio",
+        "tags": [
+          "Deals"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/EntityId"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Deal"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Atualizado com sucesso"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Excluir Negócio",
+        "tags": [
+          "Deals"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/EntityId"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Excluído com sucesso"
+          }
+        }
+      }
+    },
+    "/Deals({Id})/Win": {
+      "post": {
+        "summary": "Ganhar Negócio",
+        "description": "Marca um negócio específico como Ganho (Won).",
+        "tags": [
+          "Deals"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/EntityId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Negócio marcado como ganho com sucesso."
+          }
+        }
+      }
+    },
+    "/Deals({Id})/Lose": {
+      "post": {
+        "summary": "Perder Negócio",
+        "description": "Marca um negócio específico como Perdido (Lost).",
+        "tags": [
+          "Deals"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/EntityId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Negócio marcado como perdido com sucesso."
+          }
+        }
+      }
+    },
+    "/Deals({Id})/Reopen": {
+      "post": {
+        "summary": "Reabrir Negócio",
+        "description": "Reabre um negócio que havia sido ganho ou perdido.",
+        "tags": [
+          "Deals"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/EntityId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Negócio reaberto com sucesso."
+          }
+        }
+      }
+    },
+    "/Tasks": {
+      "get": {
+        "summary": "Listar Tarefas",
+        "tags": [
+          "Tasks"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/ODataTop"
+          },
+          {
+            "$ref": "#/components/parameters/ODataSkip"
+          },
+          {
+            "$ref": "#/components/parameters/ODataSelect"
+          },
+          {
+            "$ref": "#/components/parameters/ODataFilter"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Sucesso"
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar Tarefa",
+        "tags": [
+          "Tasks"
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Task"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Criada com sucesso"
+          }
+        }
+      }
+    },
+    "/Tasks({Id})/Finish": {
+      "post": {
+        "summary": "Concluir Tarefa",
+        "description": "Finaliza uma tarefa pendente.",
+        "tags": [
+          "Tasks"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/EntityId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Tarefa concluída com sucesso."
+          }
+        }
+      }
+    },
+    "/Webhooks": {
+      "get": {
+        "summary": "Listar Webhooks",
+        "tags": [
+          "Webhooks"
+        ],
+        "responses": {
+          "200": {
+            "description": "Sucesso"
+          }
+        }
+      },
+      "post": {
+        "summary": "Criar Webhook",
+        "tags": [
+          "Webhooks"
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Webhook"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Criado com sucesso"
+          }
+        }
+      }
+    }
+  }
+}
